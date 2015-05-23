@@ -18,7 +18,9 @@ Operating Systems: We will target Android and iOS. If anyone thinks they can tak
 Graphics: Some lightweight graphics will be nice to make the app feel simplistic and sleek, but we don't want to over-do it. Keep the memory usage and battery consumption as low as we can. Some of us will need to draw up the designs for buttons, logos, maybe a welcome screen.
 
 
-This is a collaborative effort, anyone is welcome to work on the tasks and submit pull requests. Find a task you want to work on, and assign youself to it (or create a sub-task for it). For those who do not code, you can also discuss on the issues page. Not all the discussions there will be code-specific, you can still discuss ideas about the app in general.
+This is a collaborative effort, anyone is welcome to work on the tasks and submit pull requests. Find a task you want to work on, and assign youself to it (or create a sub-task for it). It would help to also make a comment about what you plan to do, and for which operating system.
+
+For those who do not code, you can also discuss on the issues page. Not all the discussions there will be code-specific, you can still discuss ideas about the app in general.
 
 Any questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
 
