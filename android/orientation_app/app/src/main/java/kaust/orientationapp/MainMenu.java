@@ -1,18 +1,12 @@
 package kaust.orientationapp;
 
-import android.content.ClipData;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.Toast;
+
 
 import java.util.ArrayList;
 
@@ -21,7 +15,9 @@ public class MainMenu extends ActionBarActivity {
     GridView gv;
     Context context;
     ArrayList prgmName;
-    public static String [] prgmNameList={"Calendar","Checklist","Links","Phone numbers","Travel"};
+    public static String [] prgmNameList={"Address book","Calendar","Checklist","Travel","Web links"};
+
+    // drawable icons for the buttons go here
     public static int [] prgmImages={R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home};
 
     @Override

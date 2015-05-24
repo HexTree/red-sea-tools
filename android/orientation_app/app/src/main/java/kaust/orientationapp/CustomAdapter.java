@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class CustomAdapter extends BaseAdapter{
 
@@ -52,26 +51,32 @@ public class CustomAdapter extends BaseAdapter{
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
         // TODO Auto-generated method stub
-        Holder holder=new Holder();
-        View rowView;
+        Holder holder;
 
-        rowView = inflater.inflate(R.layout.feature_list, null);
-        holder.tv=(TextView) rowView.findViewById(R.id.textView1);
-        holder.img=(ImageView) rowView.findViewById(R.id.imageView1);
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.feature_list, null);
+
+            holder=new Holder();
+            holder.tv = (TextView) convertView.findViewById(R.id.textView1);
+            holder.img = (ImageView) convertView.findViewById(R.id.imageView1);
+
+            convertView.setTag(holder);
+        } else {
+            holder = (Holder) convertView.getTag();
+        }
 
         holder.tv.setText(result[position]);
         holder.img.setImageResource(imageId[position]);
 
-        rowView.setOnClickListener(new OnClickListener() {
+        convertView.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Toast.makeText(context, "You Clicked "+result[position], Toast.LENGTH_LONG).show();
             }
         });
 
-        return rowView;
+        return convertView;
     }
 
 }
