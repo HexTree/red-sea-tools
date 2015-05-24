@@ -18,7 +18,7 @@ Other things can be added, but it would be good to accomplish these tasks first 
 **Graphics:** Some lightweight graphics will be good, but we don't want to over-do it. Keep the memory usage and battery consumption as low as we can. Some of us will need to draw up the designs for buttons, logos, maybe a welcome screen.
 
 
-This is a collaborative effort, anyone is welcome to work on the tasks and submit pull requests. Find a task you want to work on, and assign youself to it (or create a sub-task for it). It would help to also make a comment about what you plan to do, or already did, and for which operating system. Attach screenshots if you can.
+This is a collaborative effort, anyone is welcome to work on the tasks and submit pull requests. Find a task you want to work on, and assign youself to it (or create a new task). It would help to also make a comment about what you plan to do, or already did, and for which operating system. Attach screenshots if you can.
 
 For those who do not code, you can also discuss on the issues page. Not all the discussions there will be code-specific, you can still discuss ideas about the app in general.
 
