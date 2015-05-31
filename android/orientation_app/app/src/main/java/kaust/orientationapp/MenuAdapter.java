@@ -11,14 +11,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CustomAdapter extends BaseAdapter{
+public class MenuAdapter extends BaseAdapter{
 
     String [] result;
     Context context;
     int [] imageId;
     private static LayoutInflater inflater=null;
-    public CustomAdapter(MainMenu mainActivity, String[] prgmNameList, int[] prgmImages) {
-        // TODO Auto-generated constructor stub
+    public MenuAdapter(MainMenu mainActivity, String[] prgmNameList, int[] prgmImages) {
         result=prgmNameList;
         context=mainActivity;
         imageId=prgmImages;
@@ -29,19 +28,16 @@ public class CustomAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
         return result.length;
     }
 
     @Override
     public Object getItem(int position) {
-        // TODO Auto-generated method stub
         return position;
     }
 
     @Override
     public long getItemId(int position) {
-        // TODO Auto-generated method stub
         return position;
     }
 
@@ -52,7 +48,6 @@ public class CustomAdapter extends BaseAdapter{
     }
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        // TODO Auto-generated method stub
         Holder holder;
 
         if (convertView == null) {
@@ -74,8 +69,7 @@ public class CustomAdapter extends BaseAdapter{
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                Toast.makeText(context, "You Clicked " + result[position], Toast.LENGTH_LONG).show();
+//                Toast.makeText(context, "You Clicked " + result[position], Toast.LENGTH_LONG).show();
                 if (result[position].equals("Checklist")) {
                     Intent intent = new Intent(context, Checklist.class);
                     context.startActivity(intent);

@@ -25,7 +25,7 @@ public class MainMenu extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
         gv=(GridView) findViewById(R.id.gridView1);
-        gv.setAdapter(new CustomAdapter(this, prgmNameList,prgmImages));
+        gv.setAdapter(new MenuAdapter(this, prgmNameList,prgmImages));
     }
 
     @Override

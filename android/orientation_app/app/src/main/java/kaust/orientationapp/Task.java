@@ -1,12 +1,12 @@
 package kaust.orientationapp;
 
-public class Country {
+public class Task {
 
     String code = null;
     String name = null;
     boolean selected = false;
 
-    public Country(String code, String name, boolean selected) {
+    public Task(String code, String name, boolean selected) {
         super();
         this.code = name;
         //this.name = code;

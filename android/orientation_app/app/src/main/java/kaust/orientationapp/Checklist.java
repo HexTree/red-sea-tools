@@ -1,12 +1,11 @@
 package kaust.orientationapp;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -17,16 +16,29 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 
 
 public class Checklist extends ActionBarActivity {
 
     MyCustomAdapter dataAdapter = null;
+    public String[] ListItems = new String[]{};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        try {
+            Resources ResFiles = getResources();
+            InputStream ReadDbFile = ResFiles.openRawResource(R.raw.tasks);
+            byte[] Bytes = new byte[ReadDbFile.available()];
+            ReadDbFile.read(Bytes);
+            String DbLines = new String(Bytes);
+            ListItems = DbLines.split("\n"); // Split the content by line
+        } catch (Exception e) {
+        }
+
         setContentView(R.layout.activity_checklist);
 
         //Generate list View from ArrayList
@@ -39,25 +51,17 @@ public class Checklist extends ActionBarActivity {
     private void displayListView() {
 
         //Array list of countries
-        ArrayList<Country> countryList = new ArrayList<Country>();
-        Country country = new Country("AFG","Afghanistan",false);
-        countryList.add(country);
-        country = new Country("ALB","Albania",true);
-        countryList.add(country);
-        country = new Country("DZA","Algeria",false);
-        countryList.add(country);
-        country = new Country("ASM","American Samoa",true);
-        countryList.add(country);
-        country = new Country("AND","Andorra",true);
-        countryList.add(country);
-        country = new Country("AGO","Angola",false);
-        countryList.add(country);
-        country = new Country("AIA","Anguilla",false);
-        countryList.add(country);
+        ArrayList<Task> taskList = new ArrayList<Task>();
+        Task task;
+
+        for (String item : ListItems){
+            task = new Task("",item,false);
+            taskList.add(task);
+        }
 
         //create an ArrayAdaptar from the String Array
         dataAdapter = new MyCustomAdapter(this,
-                R.layout.task_list, countryList);
+                R.layout.task_list, taskList);
         ListView listView = (ListView) findViewById(R.id.listView1);
         // Assign adapter to ListView
         listView.setAdapter(dataAdapter);
@@ -67,24 +71,24 @@ public class Checklist extends ActionBarActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 // When clicked, show a toast with the TextView text
-                Country country = (Country) parent.getItemAtPosition(position);
-                Toast.makeText(getApplicationContext(),
-                        "Clicked on Row: " + country.getName(),
-                        Toast.LENGTH_LONG).show();
+//                Task task = (Task) parent.getItemAtPosition(position);
+//                Toast.makeText(getApplicationContext(),
+//                        "Clicked on Row: " + task.getName(),
+//                        Toast.LENGTH_LONG).show();
             }
         });
 
     }
 
-    private class MyCustomAdapter extends ArrayAdapter<Country> {
+    private class MyCustomAdapter extends ArrayAdapter<Task> {
 
-        private ArrayList<Country> countryList;
+        private ArrayList<Task> taskList;
 
         public MyCustomAdapter(Context context, int textViewResourceId,
-                               ArrayList<Country> countryList) {
-            super(context, textViewResourceId, countryList);
-            this.countryList = new ArrayList<Country>();
-            this.countryList.addAll(countryList);
+                               ArrayList<Task> taskList) {
+            super(context, textViewResourceId, taskList);
+            this.taskList = new ArrayList<Task>();
+            this.taskList.addAll(taskList);
         }
 
         private class ViewHolder {
@@ -111,12 +115,12 @@ public class Checklist extends ActionBarActivity {
                 holder.name.setOnClickListener( new View.OnClickListener() {
                     public void onClick(View v) {
                         CheckBox cb = (CheckBox) v ;
-                        Country country = (Country) cb.getTag();
-                        Toast.makeText(getApplicationContext(),
-                                "Clicked on Checkbox: " + cb.getText() +
-                                        " is " + cb.isChecked(),
-                                Toast.LENGTH_LONG).show();
-                        country.setSelected(cb.isChecked());
+                        Task task = (Task) cb.getTag();
+//                        Toast.makeText(getApplicationContext(),
+//                                "Clicked on Checkbox: " + cb.getText() +
+//                                        " is " + cb.isChecked(),
+//                                Toast.LENGTH_LONG).show();
+                        task.setSelected(cb.isChecked());
                     }
                 });
             }
@@ -124,11 +128,11 @@ public class Checklist extends ActionBarActivity {
                 holder = (ViewHolder) convertView.getTag();
             }
 
-            Country country = countryList.get(position);
-            holder.code.setText(country.getCode());
-            holder.name.setText(country.getName());
-            holder.name.setChecked(country.isSelected());
-            holder.name.setTag(country);
+            Task task = taskList.get(position);
+            holder.code.setText(task.getCode());
+            holder.name.setText(task.getName());
+            holder.name.setChecked(task.isSelected());
+            holder.name.setTag(task);
 
             return convertView;
 
@@ -145,19 +149,20 @@ public class Checklist extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-                StringBuffer responseText = new StringBuffer();
-                responseText.append("The following were selected...\n");
-
-                ArrayList<Country> countryList = dataAdapter.countryList;
-                for(int i=0;i<countryList.size();i++){
-                    Country country = countryList.get(i);
-                    if(country.isSelected()){
-                        responseText.append("\n" + country.getName());
-                    }
-                }
-
-                Toast.makeText(getApplicationContext(),
-                        responseText, Toast.LENGTH_LONG).show();
+                // List selected items
+//                StringBuffer responseText = new StringBuffer();
+//                responseText.append("The following were selected...\n");
+//
+//                ArrayList<Task> taskList = dataAdapter.taskList;
+//                for(int i=0;i< taskList.size();i++){
+//                    Task task = taskList.get(i);
+//                    if(task.isSelected()){
+//                        responseText.append("\n" + task.getName());
+//                    }
+//                }
+//
+//                Toast.makeText(getApplicationContext(),
+//                        responseText, Toast.LENGTH_LONG).show();
 
             }
         });

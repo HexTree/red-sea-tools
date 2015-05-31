@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Orientation App</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="choice">Select your choice:</string>
-    <string name="title_activity_checklist">Checklist</string>
+    <string name="title_activity_checklist">Orientation Checklist</string>
 </resources>
