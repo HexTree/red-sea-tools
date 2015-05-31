@@ -15,6 +15,8 @@ Other things can be added, but it would be good to accomplish these tasks first 
 
 **Operating Systems:** We will target Android and iOS. If anyone thinks they can take on Windows Phone too, then by all means go for it, but otherwise we will stick to the most popular two. We should also try to target a wide range of versions, not just the new ones, because students who arrive here may have old phones.
 
+Update: Perhaps it will be easier to write Android first and port to iOS. 
+
 **Graphics:** Some lightweight graphics will be good, but we don't want to over-do it. Keep the memory usage and battery consumption as low as we can. Some of us will need to draw up the designs for buttons, logos, maybe a welcome screen.
 
 
