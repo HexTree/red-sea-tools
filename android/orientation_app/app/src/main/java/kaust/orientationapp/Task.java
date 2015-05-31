@@ -2,23 +2,15 @@ package kaust.orientationapp;
 
 public class Task {
 
-    String code = null;
     String name = null;
     boolean selected = false;
 
-    public Task(String code, String name, boolean selected) {
+    public Task(String name, boolean selected) {
         super();
-        this.code = name;
-        //this.name = code;
+        this.name = name;
         this.selected = selected;
     }
 
-    public String getCode() {
-        return code;
-    }
-    public void setCode(String code) {
-        this.code = code;
-    }
     public String getName() {
         return name;
     }

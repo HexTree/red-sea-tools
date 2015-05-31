@@ -22,9 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:numColumns="auto_fit"
+        android:numColumns="3"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true">
     </GridView>
 
 </RelativeLayout>

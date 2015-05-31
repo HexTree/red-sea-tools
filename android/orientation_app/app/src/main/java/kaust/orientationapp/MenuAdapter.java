@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MenuAdapter extends BaseAdapter{
 
@@ -51,7 +50,7 @@ public class MenuAdapter extends BaseAdapter{
         Holder holder;
 
         if (convertView == null) {
-            convertView = inflater.inflate(R.layout.feature_list, null);
+            convertView = inflater.inflate(R.layout.feature, null);
 
             holder=new Holder();
             holder.tv = (TextView) convertView.findViewById(R.id.textView1);

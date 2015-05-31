@@ -1,6 +1,7 @@
 package kaust.orientationapp;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -50,18 +51,18 @@ public class Checklist extends ActionBarActivity {
 
     private void displayListView() {
 
-        //Array list of countries
+        //Array list of tasks
         ArrayList<Task> taskList = new ArrayList<Task>();
         Task task;
 
         for (String item : ListItems){
-            task = new Task("",item,false);
+            task = new Task(item, false);
             taskList.add(task);
         }
 
         //create an ArrayAdaptar from the String Array
         dataAdapter = new MyCustomAdapter(this,
-                R.layout.task_list, taskList);
+                R.layout.task, taskList);
         ListView listView = (ListView) findViewById(R.id.listView1);
         // Assign adapter to ListView
         listView.setAdapter(dataAdapter);
@@ -92,12 +93,14 @@ public class Checklist extends ActionBarActivity {
         }
 
         private class ViewHolder {
-            TextView code;
-            CheckBox name;
+            TextView name;
+            CheckBox code;
         }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
+
+            final SharedPreferences settings = getPreferences(0);
 
             ViewHolder holder = null;
             Log.v("ConvertView", String.valueOf(position));
@@ -105,22 +108,25 @@ public class Checklist extends ActionBarActivity {
             if (convertView == null) {
                 LayoutInflater vi = (LayoutInflater)getSystemService(
                         Context.LAYOUT_INFLATER_SERVICE);
-                convertView = vi.inflate(R.layout.task_list, null);
+                convertView = vi.inflate(R.layout.task, null);
 
                 holder = new ViewHolder();
-                holder.code = (TextView) convertView.findViewById(R.id.code);
-                holder.name = (CheckBox) convertView.findViewById(R.id.checkBox1);
+                holder.name = (TextView) convertView.findViewById(R.id.code);
+                holder.code = (CheckBox) convertView.findViewById(R.id.checkBox1);
                 convertView.setTag(holder);
 
-                holder.name.setOnClickListener( new View.OnClickListener() {
+                holder.code.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        CheckBox cb = (CheckBox) v ;
+                        CheckBox cb = (CheckBox) v;
                         Task task = (Task) cb.getTag();
 //                        Toast.makeText(getApplicationContext(),
-//                                "Clicked on Checkbox: " + cb.getText() +
+//                                "Clicked on Checkbox: " + task.getName() +
 //                                        " is " + cb.isChecked(),
 //                                Toast.LENGTH_LONG).show();
                         task.setSelected(cb.isChecked());
+                        SharedPreferences.Editor editor = settings.edit();
+                        editor.putBoolean(task.getName(), task.isSelected());
+                        editor.apply();
                     }
                 });
             }
@@ -129,10 +135,10 @@ public class Checklist extends ActionBarActivity {
             }
 
             Task task = taskList.get(position);
-            holder.code.setText(task.getCode());
             holder.name.setText(task.getName());
-            holder.name.setChecked(task.isSelected());
-            holder.name.setTag(task);
+            boolean isChecked = settings.getBoolean(task.getName(), false);
+            holder.code.setChecked(isChecked);
+            holder.code.setTag(task);
 
             return convertView;
 
