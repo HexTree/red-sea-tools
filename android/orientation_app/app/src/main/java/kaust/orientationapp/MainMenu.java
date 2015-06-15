@@ -15,7 +15,7 @@ public class MainMenu extends ActionBarActivity {
     GridView gv;
     Context context;
     ArrayList prgmName;
-    public static String [] prgmNameList={"Calendar","Checklist", "Phone directory", "Travel","Web links"};
+    public static String [] prgmNameList={"Calendar","Checklist", "Phone book", "Travel","Web links"};
 
     // drawable icons for the buttons go here
     public static int [] prgmImages={R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home};

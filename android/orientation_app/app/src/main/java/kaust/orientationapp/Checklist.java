@@ -119,14 +119,16 @@ public class Checklist extends ActionBarActivity {
                     public void onClick(View v) {
                         CheckBox cb = (CheckBox) v;
                         Task task = (Task) cb.getTag();
-//                        Toast.makeText(getApplicationContext(),
-//                                "Clicked on Checkbox: " + task.getName() +
-//                                        " is " + cb.isChecked(),
-//                                Toast.LENGTH_LONG).show();
                         task.setSelected(cb.isChecked());
+
+                        // Store in shared preferences
                         SharedPreferences.Editor editor = settings.edit();
                         editor.putBoolean(task.getName(), task.isSelected());
                         editor.apply();
+
+//                        Toast.makeText(getApplicationContext(),
+//                        "Clicked on Checkbox: " + task.getName() + " is " + cb.isChecked(),
+//                        Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -139,6 +141,10 @@ public class Checklist extends ActionBarActivity {
             boolean isChecked = settings.getBoolean(task.getName(), false);
             holder.code.setChecked(isChecked);
             holder.code.setTag(task);
+
+//            Toast.makeText(getApplicationContext(),
+//            "Set Checkbox: " + task.getName() + " " + isChecked,
+//            Toast.LENGTH_SHORT).show();
 
             return convertView;
 

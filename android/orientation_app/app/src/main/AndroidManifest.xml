@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kaust.orientationapp.MainMenu" />
         </activity>
+        <activity
+            android:name=".Phonebook"
+            android:label="@string/title_activity_phonebook"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaust.orientationapp.MainMenu" />
+        </activity>
     </application>
 
 </manifest>

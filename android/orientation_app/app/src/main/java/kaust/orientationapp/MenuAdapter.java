@@ -68,9 +68,12 @@ public class MenuAdapter extends BaseAdapter{
 
             @Override
             public void onClick(View v) {
-//                Toast.makeText(context, "You Clicked " + result[position], Toast.LENGTH_LONG).show();
                 if (result[position].equals("Checklist")) {
                     Intent intent = new Intent(context, Checklist.class);
+                    context.startActivity(intent);
+                }
+                if (result[position].equals("Phone book")) {
+                    Intent intent = new Intent(context, Phonebook.class);
                     context.startActivity(intent);
                 }
             }
