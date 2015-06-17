@@ -29,7 +29,7 @@ Any questions, please post in the Issues page or email me at liam.mencel@kaust.e
 **Some screenshots of basic menus:**
 
 ![alt tag](https://cloud.githubusercontent.com/assets/7933725/8206700/8be71400-1504-11e5-93e2-97bc777d2251.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/7902250/ccadec8a-07bb-11e5-8c09-f86a544773d0.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7933725/8211767/02a9a1e0-1521-11e5-8062-7b61ac42274d.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/7933725/8174062/61cfa3dc-13e0-11e5-96f0-fe9acaa75bb9.png)
 
 
