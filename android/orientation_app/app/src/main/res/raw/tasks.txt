@@ -1,6 +1,6 @@
-Housing
-Medical
-ID
-IQAMA
-SAMBA
-Test
+Housing,
+Medical,
+ID,
+IQAMA,
+SAMBA,
+Test,
