@@ -1,6 +1,5 @@
-Housing,
-Medical,
-ID,
-IQAMA,
-SAMBA,
-Test,
+Housing,Go to the Housing Office on level 2 of the Student Centre.
+Medical,No description
+ID,No description
+IQAMA,No description
+SAMBA,No description

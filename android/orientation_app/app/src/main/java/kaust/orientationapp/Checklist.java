@@ -27,10 +27,13 @@ public class Checklist extends ActionBarActivity {
     MyCustomAdapter dataAdapter = null;
     public String[] ListItems = new String[]{};
     SharedPreferences settings;
+    Toast mToast;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         settings = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        mToast = Toast.makeText(getApplicationContext(), "", Toast.LENGTH_LONG);
 
         try {
             Resources ResFiles = getResources();
@@ -59,7 +62,7 @@ public class Checklist extends ActionBarActivity {
 
         for (String item : ListItems){
             String[] parts = item.split(",");
-            task = new Task(parts[0], false);
+            task = new Task(parts[0], parts[1], false);
             taskList.add(task);
         }
 
@@ -74,11 +77,10 @@ public class Checklist extends ActionBarActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                // When clicked, show a toast with the TextView text
-//                Task task = (Task) parent.getItemAtPosition(position);
-//                Toast.makeText(getApplicationContext(),
-//                        "Clicked on Row: " + task.getName(),
-//                        Toast.LENGTH_LONG).show();
+                // When clicked, show a toast with the task hint
+                Task task = (Task) parent.getItemAtPosition(position);
+                mToast.setText(task.getHint());
+                mToast.show();
             }
         });
 
