@@ -2,10 +2,15 @@ package kaust.orientationapp;
 
 
 import android.content.Context;
+import android.content.Intent;
+import android.provider.Contacts;
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -39,7 +44,7 @@ public class PhonebookAdapter extends BaseAdapter {
     @Override
     public View getView(int pos, View convertView, ViewGroup parent) {
         // get selected entry
-        Contact entry = mListContact.get(pos);
+        final Contact entry = mListContact.get(pos);
 
         // inflating list view layout if null
         if(convertView == null) {
@@ -62,6 +67,28 @@ public class PhonebookAdapter extends BaseAdapter {
         // set email
         TextView tvEmail = (TextView)convertView.findViewById(R.id.tvEmail);
         tvEmail.setText(entry.getEmail());
+
+        Button myButton = (Button)convertView.findViewById(R.id.button1);
+        myButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // Creates a new Intent to insert a contact
+                Intent intent = new Intent(ContactsContract.Intents.Insert.ACTION);
+                // Sets the MIME type to match the Contacts Provider
+                intent.setType(ContactsContract.RawContacts.CONTENT_TYPE);
+
+                intent.putExtra(ContactsContract.Intents.Insert.NAME, entry.getName());
+
+                // Inserts an email address
+                intent.putExtra(ContactsContract.Intents.Insert.EMAIL, entry.getEmail());
+
+                // Inserts a phone number
+                intent.putExtra(ContactsContract.Intents.Insert.PHONE, entry.getPhone());
+
+                mContext.startActivity(intent);
+            }
+        });
 
         return convertView;
     }

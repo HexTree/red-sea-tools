@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
+    android:weightSum="1">
 
     <ImageView
         android:id="@+id/imgAvatar"
         android:layout_width="70dip"
         android:layout_height="70dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:scaleType="fitCenter"
         />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="70dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:layout_toStartOf="@+id/button1"
+        android:layout_toRightOf="@+id/imgAvatar"
+        android:layout_toEndOf="@+id/imgAvatar" >
 
         <TextView
             android:id="@+id/tvName"
@@ -39,4 +44,12 @@
 
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/add" />
+
+</RelativeLayout>

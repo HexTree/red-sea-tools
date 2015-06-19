@@ -5,4 +5,5 @@
     <string name="choice">Select your choice:</string>
     <string name="title_activity_checklist">Orientation Checklist</string>
     <string name="title_activity_phonebook">KAUST Phone Book</string>
+    <string name="add">Add</string>
 </resources>

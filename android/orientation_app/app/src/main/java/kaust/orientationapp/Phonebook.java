@@ -5,6 +5,8 @@ import android.content.res.Resources;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.io.InputStream;
@@ -13,7 +15,6 @@ import java.util.List;
 
 public class Phonebook extends ActionBarActivity {
 
-    private ListView lvPhone;
     public String[] ListContacts = new String[]{};
 
     @Override
@@ -32,7 +33,7 @@ public class Phonebook extends ActionBarActivity {
         } catch (Exception e) {
         }
 
-        lvPhone = (ListView)findViewById(R.id.listPhone);
+        ListView lvPhone = (ListView)findViewById(R.id.listPhone);
         List<Contact> listContact = new ArrayList<>();
         for (String contact : ListContacts){
             String[] fields = contact.split(",");
@@ -45,4 +46,5 @@ public class Phonebook extends ActionBarActivity {
         lvPhone.setAdapter(adapter);
 
     }
+
 }

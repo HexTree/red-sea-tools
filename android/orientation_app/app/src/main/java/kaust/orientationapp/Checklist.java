@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -49,8 +48,6 @@ public class Checklist extends ActionBarActivity {
 
         //Generate list View from ArrayList
         displayListView();
-
-        checkButtonClick();
 
     }
 
@@ -150,33 +147,5 @@ public class Checklist extends ActionBarActivity {
 
             return convertView;
         }
-    }
-
-    private void checkButtonClick() {
-
-        Button myButton = (Button) findViewById(R.id.findSelected);
-        myButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-
-                // List selected items
-//                StringBuffer responseText = new StringBuffer();
-//                responseText.append("The following were selected...\n");
-//
-//                ArrayList<Task> taskList = dataAdapter.taskList;
-//                for(int i=0;i< taskList.size();i++){
-//                    Task task = taskList.get(i);
-//                    if(task.isSelected()){
-//                        responseText.append("\n" + task.getName());
-//                    }
-//                }
-//
-//                Toast.makeText(getApplicationContext(),
-//                        responseText, Toast.LENGTH_LONG).show();
-
-            }
-        });
-
     }
 }
