@@ -28,8 +28,9 @@ Any questions, please post in the Issues page or email me at liam.mencel@kaust.e
 
 **Some screenshots of basic menus:**
 
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8206700/8be71400-1504-11e5-93e2-97bc777d2251.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8211767/02a9a1e0-1521-11e5-8062-7b61ac42274d.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8174062/61cfa3dc-13e0-11e5-96f0-fe9acaa75bb9.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7933725/8286277/3a1f9456-1911-11e5-950b-e5b576e29dc7.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7933725/8221473/d797a172-1567-11e5-829b-875e39e417b6.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7933725/8245653/10f319d8-163a-11e5-8b98-bc43c66fc839.png)
+![alt tag](https://cloud.githubusercontent.com/assets/7933725/8245432/2fe8f1bc-1637-11e5-9920-a096fcec8fdd.png)
 
 
