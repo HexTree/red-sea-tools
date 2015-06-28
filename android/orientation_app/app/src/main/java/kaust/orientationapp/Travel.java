@@ -11,7 +11,7 @@ import java.net.URI;
 public class Travel extends ActionBarActivity {
 
     WebView wv;
-    URI url = URI.create("https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm");
+    String url = "https://www.openstreetmap.org/#map=16/22.3165/39.1051";
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
@@ -22,6 +22,6 @@ public class Travel extends ActionBarActivity {
 //        wv.setWebViewClient(new WebViewClient(){
 //            boolean
 //        });
-        wv.loadUrl("https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm");
+        wv.loadUrl(url);
     }
 }
