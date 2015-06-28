@@ -76,6 +76,10 @@ public class MenuAdapter extends BaseAdapter{
                     Intent intent = new Intent(context, Phonebook.class);
                     context.startActivity(intent);
                 }
+                if (result[position].equals("Travel")) {
+                    Intent intent = new Intent(context, Travel.class);
+                    context.startActivity(intent);
+                }
             }
         });
 

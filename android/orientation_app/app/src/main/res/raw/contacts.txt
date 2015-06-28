@@ -1,3 +1,3 @@
-Emergency Services,O128080911,,person
+Emergency Services,0128080911,,person
 Facilities Helpdesk,0128080959,fchelpdesk@kaust.edu.sa,person
 Hanco taxi,0507541942,hancotransport@kaust.edu.sa,person
