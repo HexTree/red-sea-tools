@@ -7,6 +7,7 @@
     <string name="title_activity_phonebook">KAUST Phone Book</string>
     <string name="title_activity_travel">KAUST Travel</string>
     <string name="title_activity_calendar">Orientation Calendar</string>
-    <string name="title_activity_weblink">KAUST WebLinks</string>
+    <string name="title_activity_weblink">KAUST Weblinks</string>
     <string name="add">Add</string>
+    <string name="month">August 2015</string>
 </resources>

@@ -42,7 +42,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kaust.orientationapp.MainMenu" />
         </activity> <activity
-            android:name=".Calender"
+            android:name=".Calendar"
             android:label="@string/title_activity_calendar"
             android:parentActivityName=".MainMenu" >
             <meta-data
@@ -50,7 +50,7 @@
             android:value="kaust.orientationapp.MainMenu" />
         </activity>
         <activity
-            android:name=".CalenderOp"
+            android:name=".CalendarOp"
             android:label="@string/title_activity_calendar"
             android:parentActivityName=".MainMenu" >
             <meta-data

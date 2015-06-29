@@ -1,38 +1,30 @@
 package kaust.orientationapp;
 
 import android.annotation.TargetApi;
-import android.app.Activity;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.util.TypedValue;
-import android.view.Display;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 /**
  * Created by uchman21 on 6/20/15.
  */
 @TargetApi(11)
-public class CalenderOp extends ActionBarActivity {
+public class CalendarOp extends ActionBarActivity {
 
     GridView gridView;
     ListView lv;
@@ -48,10 +40,10 @@ public class CalenderOp extends ActionBarActivity {
         lv = (ListView) findViewById(R.id.listView);
 
         //initializes the calendarview
-        SetupCalender();
+        SetupCalendar();
     }
 
-    public void SetupCalender() {
+    public void SetupCalendar() {
 
         gridView = (GridView) findViewById(R.id.gridView1);
 
@@ -95,7 +87,7 @@ public class CalenderOp extends ActionBarActivity {
             itemlist = new ArrayList<String[]>();
             String[] thisLine = new String[3];
             StringBuffer buf = new StringBuffer();
-            InputStream is = CalenderOp.this.getResources().openRawResource(R.raw.activity16);
+            InputStream is = CalendarOp.this.getResources().openRawResource(R.raw.activity16);
             try {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(is));
                 if (is != null) {
@@ -157,7 +149,7 @@ public class CalenderOp extends ActionBarActivity {
 
             if (sucess == true) {
                 Log.d("su","kkkkkkkkkkkkkk");
-                lv.setAdapter(new CustomActivityList(CalenderOp.this, itemlist));
+                lv.setAdapter(new CustomActivityList(CalendarOp.this, itemlist));
 
             }
 
