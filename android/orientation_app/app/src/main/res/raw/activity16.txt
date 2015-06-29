@@ -1,0 +1,5 @@
+1;Green; Time:12:00 - 12:45; President's Welcome Luncheon; Theme: International Conference Center
+1;Blue; Time:13:00 - 13:30; Opening & Formal Welcome by; President, Dr.  Jean-Lou Chameau
+3;Red; Time:14:00 - 13:30; PSE , Bldg 9 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.;Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.
+   PSE , Bldg 10 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.; Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.
+   PSE , Bldg 11 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.;Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.

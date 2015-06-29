@@ -41,6 +41,29 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kaust.orientationapp.MainMenu" />
+        </activity> <activity
+            android:name=".Calender"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
+        </activity>
+        <activity
+            android:name=".CalenderOp"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
+        </activity>
+        <activity
+            android:name=".WebLink"
+            android:label="@string/title_activity_weblink"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
         </activity>
     </application>
 
