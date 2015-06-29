@@ -80,6 +80,14 @@ public class MenuAdapter extends BaseAdapter{
                     Intent intent = new Intent(context, Travel.class);
                     context.startActivity(intent);
                 }
+                if (result[position].equals("Calendar")) {
+                    Intent intent = new Intent(context, CalenderOp.class);
+                    context.startActivity(intent);
+                }
+                if (result[position].equals("Web links")) {
+                    Intent intent = new Intent(context, WebLink.class);
+                    context.startActivity(intent);
+                }
             }
         });
 
