@@ -4,24 +4,24 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 
-import java.net.URI;
+import kaust.orientationapp.maps.MapsWithMeApi;
 
 public class Travel extends ActionBarActivity {
 
-    WebView wv;
-    String url = "https://www.openstreetmap.org/#map=16/22.3165/39.1051";
+//    WebView wv;
+//    String url = "https://www.openstreetmap.org/#map=16/22.3165/39.1051";
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
-        wv = (WebView) findViewById(R.id.webView);
-        WebSettings settings = wv.getSettings();
-        settings.setJavaScriptEnabled(true);
-//        wv.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
-//        wv.setWebViewClient(new WebViewClient(){
-//            boolean
-//        });
-        wv.loadUrl(url);
+
+        MapsWithMeApi.showPointOnMap(this, 0, 0, "a");
+
+
+//        wv = (WebView) findViewById(R.id.webView);
+//        WebSettings settings = wv.getSettings();
+//        settings.setJavaScriptEnabled(true);
+//        wv.loadUrl(url);
     }
 }
