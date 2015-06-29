@@ -19,6 +19,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaust.orientationapp.About" />
+        </activity>
+        <activity
             android:name=".Checklist"
             android:label="@string/title_activity_checklist"
             android:parentActivityName=".MainMenu" >

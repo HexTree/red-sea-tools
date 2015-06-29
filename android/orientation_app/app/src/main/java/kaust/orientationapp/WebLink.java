@@ -102,10 +102,16 @@ public class WebLink extends ActionBarActivity {
 
         public View getView(int position, View convertView, ViewGroup parent) {
             ViewHolder holder;
-            convertView = layoutInflater.inflate(R.layout.webitem, null);
-            holder = new ViewHolder();
-            holder.WebItem = (TextView) convertView.findViewById(R.id.webtext);
-            convertView.setTag(holder);
+
+            if (convertView == null) {
+                convertView = layoutInflater.inflate(R.layout.webitem, null);
+
+                holder = new ViewHolder();
+                holder.WebItem = (TextView) convertView.findViewById(R.id.webtext);
+                convertView.setTag(holder);
+            } else {
+                holder = (ViewHolder) convertView.getTag();
+            }
 
             Plist webItem = (Plist) listData.get(position);
             holder.WebItem.setText(webItem.title());

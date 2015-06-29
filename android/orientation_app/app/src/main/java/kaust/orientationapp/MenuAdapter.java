@@ -68,6 +68,10 @@ public class MenuAdapter extends BaseAdapter{
 
             @Override
             public void onClick(View v) {
+                if (result[position].equals("About")) {
+                    Intent intent = new Intent(context, About.class);
+                    context.startActivity(intent);
+                }
                 if (result[position].equals("Calendar")) {
                     Intent intent = new Intent(context, CalendarOp.class);
                     context.startActivity(intent);
