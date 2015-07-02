@@ -43,6 +43,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kaust.orientationapp.MainMenu" />
         </activity>
+        <activity
+            android:name=".TravelMaps"
+            android:label="@string/title_activity_travel"
+            android:parentActivityName=".Travel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaust.orientationapp.Travel" />
+        </activity>
+        <activity
+            android:name=".TravelLite"
+            android:label="@string/title_activity_travel"
+            android:parentActivityName=".Travel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaust.orientationapp.Travel" />
+        </activity>
     </application>
 
 </manifest>

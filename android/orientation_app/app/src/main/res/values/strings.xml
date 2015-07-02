@@ -8,6 +8,8 @@
     <string name="title_activity_travel">KAUST Travel</string>
     <string name="add">Add</string>
 
+    <string name="travel_maps">Travel</string>
+    <string name="travel_lite">Travel LITE\n(No additional download required)</string>
     <string  name="mwm_should_be_installed">Offline maps are required to proceed. We have partnered with MAPS.ME to provide you with offline maps of KAUST, Jeddah and beyond!\nTo continue please download the app:</string>
     <string  name="down_pro">Download MAPS.ME</string>
     <string  name="url_pro">http://maps.me/get</string>
