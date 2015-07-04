@@ -20,6 +20,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kaust.orientationapp.About" />
+        </activity>
+        <activity
             android:name=".Checklist"
             android:label="@string/title_activity_checklist"
             android:parentActivityName=".MainMenu" >
@@ -42,6 +50,29 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kaust.orientationapp.MainMenu" />
+        </activity> <activity
+            android:name=".Calendar"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
+        </activity>
+        <activity
+            android:name=".CalendarOp"
+            android:label="@string/title_activity_calendar"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
+        </activity>
+        <activity
+            android:name=".WebLink"
+            android:label="@string/title_activity_weblink"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="kaust.orientationapp.MainMenu" />
         </activity>
         <activity
             android:name=".TravelMaps"

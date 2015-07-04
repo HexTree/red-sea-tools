@@ -68,6 +68,14 @@ public class MenuAdapter extends BaseAdapter{
 
             @Override
             public void onClick(View v) {
+                if (result[position].equals("About")) {
+                    Intent intent = new Intent(context, About.class);
+                    context.startActivity(intent);
+                }
+                if (result[position].equals("Calendar")) {
+                    Intent intent = new Intent(context, CalendarOp.class);
+                    context.startActivity(intent);
+                }
                 if (result[position].equals("Checklist")) {
                     Intent intent = new Intent(context, Checklist.class);
                     context.startActivity(intent);
@@ -78,6 +86,10 @@ public class MenuAdapter extends BaseAdapter{
                 }
                 if (result[position].equals("Travel")) {
                     Intent intent = new Intent(context, Travel.class);
+                    context.startActivity(intent);
+                }
+                if (result[position].equals("Web links")) {
+                    Intent intent = new Intent(context, WebLink.class);
                     context.startActivity(intent);
                 }
             }
