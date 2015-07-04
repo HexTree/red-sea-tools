@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
-    <WebView
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/webView"
-        android:layout_gravity="center_horizontal" />
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/travel_maps"
+        android:id="@+id/button1"
+        android:onClick="open_maps"
+        android:layout_weight="0.50" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/travel_lite"
+        android:id="@+id/button2"
+        android:onClick="open_lite"
+        android:layout_weight="0.50" />
 </LinearLayout>
