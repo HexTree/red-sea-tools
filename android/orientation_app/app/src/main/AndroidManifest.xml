@@ -61,10 +61,8 @@
         <activity
             android:name=".CalendarOp"
             android:label="@string/title_activity_calendar"
-            android:parentActivityName=".MainMenu" >
-            <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="kaust.orientationapp.MainMenu" />
+            android:parentActivityName=".OrientCalendar" >
+
         </activity>
         <activity
             android:name=".WebLink"

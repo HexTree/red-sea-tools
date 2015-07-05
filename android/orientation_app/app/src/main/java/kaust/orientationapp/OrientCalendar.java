@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.CalendarView;
+import android.widget.Toast;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -18,6 +19,7 @@ import java.util.GregorianCalendar;
 public class OrientCalendar extends ActionBarActivity {
 
     CalendarView calender;
+    boolean enter = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,19 +33,36 @@ public class OrientCalendar extends ActionBarActivity {
     public void SetupCalendar(){
         Calendar mincalendar = new GregorianCalendar(2015,Calendar.AUGUST , 1);
         Calendar maxcalendar = new GregorianCalendar(2015,Calendar.AUGUST , 31);
-        Calendar selectedday = new GregorianCalendar(2015,Calendar.AUGUST , 9);
+        final Calendar selectedday = new GregorianCalendar(2015,Calendar.AUGUST , 9);
+        final Calendar lastday = new GregorianCalendar(2015,Calendar.AUGUST , 22);
         calender = (CalendarView) findViewById(R.id.calendarView);
         calender.setMaxDate(maxcalendar.getTimeInMillis());
         calender.setMinDate(mincalendar.getTimeInMillis());
-        calender.setDate(selectedday.getTimeInMillis(), true, true);
+        final Calendar currentday = Calendar.getInstance();
+        if(currentday.getTimeInMillis() < selectedday.getTimeInMillis() || currentday.getTimeInMillis() >lastday.getTimeInMillis()) {
+            calender.setDate(selectedday.getTimeInMillis(), true, true);
+        }else{
+            calender.setDate(currentday.getTimeInMillis(), true, true);
+        }
         calender.setShowWeekNumber(false);
         calender.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
                 if(dayOfMonth>8 && dayOfMonth <23) {
-                    Intent calendarIntent = new Intent(OrientCalendar.this, CalendarOp.class);
-                    calendarIntent.putExtra("day", dayOfMonth);
-                    startActivity(calendarIntent);
+                    if(enter == true) {
+                        Intent calendarIntent = new Intent(OrientCalendar.this, CalendarOp.class);
+                        calendarIntent.putExtra("day", dayOfMonth);
+                        startActivity(calendarIntent);
+                    }
+                }else{
+                    enter = false;
+                    if(currentday.getTimeInMillis() < selectedday.getTimeInMillis() || currentday.getTimeInMillis() >lastday.getTimeInMillis()) {
+                        calender.setDate(selectedday.getTimeInMillis(), true, true);
+                    }else{
+                        calender.setDate(currentday.getTimeInMillis(), true, true);
+                    }
+                    enter=true;
+                    Toast.makeText(getApplicationContext(),"The Event is from the 9th to the 22nd of August 2015",Toast.LENGTH_LONG).show();
                 }
             }
         });
