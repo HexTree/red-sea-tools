@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -27,15 +28,19 @@ import java.util.ArrayList;
 public class CalendarOp extends ActionBarActivity {
 
     ListView lv;
+
     int day;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //sets the main layout of the activity
         setContentView(R.layout.calendarclick);
+        TextView date = (TextView) findViewById(R.id.DtextView);
         lv = (ListView) findViewById(R.id.listView);
 
         day = getIntent().getIntExtra("day",0);
+        String Oday = day+"th"+" August 2015";
+        date.setText(Oday);
         //initializes the calendarview
         SetupCalendar();
     }

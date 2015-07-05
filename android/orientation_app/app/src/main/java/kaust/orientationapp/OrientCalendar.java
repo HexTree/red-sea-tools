@@ -36,6 +36,7 @@ public class OrientCalendar extends ActionBarActivity {
         calender.setMaxDate(maxcalendar.getTimeInMillis());
         calender.setMinDate(mincalendar.getTimeInMillis());
         calender.setDate(selectedday.getTimeInMillis(), true, true);
+        calender.setShowWeekNumber(false);
         calender.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
