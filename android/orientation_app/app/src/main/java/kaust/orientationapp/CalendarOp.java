@@ -29,6 +29,7 @@ public class CalendarOp extends ActionBarActivity {
 
     ListView lv;
 
+    String date1;
     int day;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +39,9 @@ public class CalendarOp extends ActionBarActivity {
         TextView date = (TextView) findViewById(R.id.DtextView);
         lv = (ListView) findViewById(R.id.listView);
 
+        date1 = getIntent().getStringExtra("date");
         day = getIntent().getIntExtra("day",0);
-        String Oday = day+"th"+" August 2015";
-        date.setText(Oday);
+        date.setText(date1);
         //initializes the calendarview
         SetupCalendar();
     }
