@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -26,38 +27,26 @@ import java.util.ArrayList;
 @TargetApi(11)
 public class CalendarOp extends ActionBarActivity {
 
-    GridView gridView;
     ListView lv;
 
-    static final String[] Date = new String[]{"S", "M", "T", "W", "T", "F", "S",
-            "16", "17", "18", "19", "20", "21", "22"};
-
+    int day;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //sets the main layout of the activity
         setContentView(R.layout.calendarclick);
+        TextView date = (TextView) findViewById(R.id.DtextView);
         lv = (ListView) findViewById(R.id.listView);
 
+        day = getIntent().getIntExtra("day",0);
+        String Oday = day+"th"+" August 2015";
+        date.setText(Oday);
         //initializes the calendarview
         SetupCalendar();
     }
 
     public void SetupCalendar() {
-
-        gridView = (GridView) findViewById(R.id.gridView1);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, Date);
-
-        gridView.setAdapter(adapter);
-
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-                new LoadAllItems(16).execute();
-            }
-        });
+        new LoadAllItems(day).execute();
     }
 
 
