@@ -73,7 +73,7 @@ public class MenuAdapter extends BaseAdapter{
                     context.startActivity(intent);
                 }
                 if (result[position].equals("Calendar")) {
-                    Intent intent = new Intent(context, CalendarOp.class);
+                    Intent intent = new Intent(context, OrientCalendar.class);
                     context.startActivity(intent);
                 }
                 if (result[position].equals("Checklist")) {

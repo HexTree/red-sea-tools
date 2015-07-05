@@ -5,26 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/month"
-        android:id="@+id/textView"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal" />
-
-    <GridView
-    android:layout_width="match_parent" android:layout_height="100dp"
-    android:id="@+id/gridView1"
-    android:numColumns="7"
-    android:stretchMode="columnWidth"
-    android:gravity="center">
-   <!-- android:columnWidth="50dp"
-    android:stretchMode="columnWidth"-->
-
-</GridView>
-
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
