@@ -9,7 +9,7 @@ import android.webkit.WebView;
 public class TravelLite extends ActionBarActivity {
 
     WebView wv;
-    String url = "https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm";
+    String url = "http://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs_notext.htm";
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

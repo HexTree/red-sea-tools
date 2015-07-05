@@ -10,7 +10,7 @@ import android.widget.CalendarView;
 
 public class Calendar extends Activity {
 
-    CalendarView calender;
+    CalendarView calendar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class Calendar extends Activity {
 
     public void SetupCalendar(){
 
-        calender = (CalendarView) findViewById(R.id.calendarView);
+        calendar = (CalendarView) findViewById(R.id.calendarView);
 
     }
 
