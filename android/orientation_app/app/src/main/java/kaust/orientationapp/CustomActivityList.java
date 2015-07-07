@@ -83,14 +83,13 @@ public class CustomActivityList extends BaseAdapter{
                 case 2:
                     St_Arrange = actItem.getitems1().split(";");
                     holder.time.setText(St_Arrange[2]);
-                    holder.lpView = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+                    holder.linLayoutParam = new LayoutParams(actItem.getsize()/2, LayoutParams.MATCH_PARENT);
                     holder.L1 = new LinearLayout(parent.getContext());
                     holder.L1.setOrientation(LinearLayout.VERTICAL);
                     holder.L1.setLayoutParams(holder.linLayoutParam);
                     holder.mainL.addView(holder.L1);
                     holder.lpView = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
                     holder.tv = new TextView(parent.getContext());
-                    //LinearLayout.LayoutParams lpView = new LinearLayout.LayoutParams(this.size, this.size);
                     for(int i=3;i<St_Arrange.length;i++) {
                         holder.tv.append(St_Arrange[i]+"\n");
                         holder.tv.setGravity(Gravity.CENTER);

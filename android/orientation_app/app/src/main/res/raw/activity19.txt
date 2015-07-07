@@ -1,0 +1,19 @@
+1;Purple; Time:9:30 - 10:00;Putting KAUST on the Map of Academic Excellence Keynote:; Dr.  Yves Gnanou
+1;Green; Time:10:00 - 10:45; Graduate Services
+1;SkyBlue; Time:10:45 - 11:15; Academic Services Registrar's Office
+1;SkyBlue; Time:11:15 - 11:45; IT Resources
+1;White; Time:11:45 - 12:00;  -B R E A K-
+1;Green; Time:12:00 - 12:15; GA Operations Student Support Services
+1;SkyBlue; Time:12:15 - 12:30; University Library
+1;Green; Time:12:30 - 12:45; Health, Safety & Environment
+1;Green; Time:12:45 - 13:00; Security
+1;Green; Time:13:00 - 13:00; GASC: Residency & Visa/Legal Matters
+1;Brown; Time:13:30 - 14:15; -Light Lunch - ; To be served on levels 3 & 4 Student Center; Afternoon Concurrent Sessions start at 2:30 pm Student Center (Bldg 18). ;Room locations will be posted in the lobby
+3;SkyBlue; Time:14:30 - 17:00; Saudi Initiatives; Fellowship Hall 2; 10 minute break; Computing at KAUST; Fellowship Hall 2
+    Library Research Databases; Room 4223; 10 minute break; Library Research Databases; Room  4223; 10 minute break; Introduction to WEP; Room 4223
+    Fellowship Hall 1; Student Research and Development Presentations; Fellowship Hall 1
+1;White; Time:17:00 - 18:45;  -B R E A K-
+1;Purple; Time:19:00 - 19:15; Welcome by Evgeniya Predybaylo, Chair of Graduate Student Council
+1;Brown; Time:19:15 - 20:00; Group Dinner;Theme:  Middle East;Conference Center
+1;Green; Time:20:00 - 22:00; Icebreakers and Games;  Facilitated By: Graduate Student Orientation Leaders
+1;SkyBlue;  ; Off Campus Trip

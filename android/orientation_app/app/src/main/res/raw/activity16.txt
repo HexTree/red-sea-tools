@@ -1,5 +1,7 @@
-1;Green; Time:12:00 - 12:45; President's Welcome Luncheon; Theme: International Conference Center
-1;Blue; Time:13:00 - 13:30; Opening & Formal Welcome by; President, Dr.  Jean-Lou Chameau
-3;Red; Time:14:00 - 13:30; PSE , Bldg 9 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.;Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.
-   PSE , Bldg 10 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.; Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.
-   PSE , Bldg 11 Lecture Hall 2; Chemical Sciences; Chemical and Biological Eng.;Earth Science and Eng.; Material Sci and Eng.; Mechanical Eng.
+1;White; Time:9:30 - 12:00; See Cultural Orientation Schedule; for activities scheduled for this day
+1;Brown; Time:12:00 - 12:45; President's Welcome Luncheon; Theme: International Conference Center
+1;Purple; Time:13:00 - 13:30; Opening & Formal Welcome by; President, Dr.  Jean-Lou Chameau
+1;SkyBlue; Time:14:00 - 18:30; Divisional Academic Assessment for students; who arrived by August 16th.;Location: please see footnotes on backnd Eng.; Mechanical Eng.
+1;Purple; Time:19:00 - 19:15; Welcome by Dr. James Calvin,; Vice President for Academic Affairs
+1;Brown; Time:19:15 - 20:00; Group Dinner ; Theme: International; Conference Center
+1;Green; Time:20:00 - 22:00; Icebreakers and Games;  Facilitated By: Graduate Student Orientation Leaders

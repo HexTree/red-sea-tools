@@ -50,6 +50,57 @@ public class CalendarOp extends ActionBarActivity {
         new LoadAllItems(day).execute();
     }
 
+    public InputStream read (int day){
+        InputStream ist = null;
+        switch (day){
+            case 9:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 10:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 11:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 12:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 13:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 14:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 15:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                break;
+            case 16:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity16);
+                break;
+            case 17:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity17);
+                break;
+            case 18:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity18);
+                break;
+            case 19:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity19);
+                break;
+            case 20:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity20);
+                break;
+            case 21:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity21);
+                break;
+            case 22:
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity22);
+                break;
+            default:
+                break;
+
+        }
+        return ist;
+    }
 
     private class LoadAllItems extends AsyncTask<Boolean, Boolean, Boolean> {
         private int date;
@@ -77,7 +128,7 @@ public class CalendarOp extends ActionBarActivity {
             itemlist = new ArrayList<String[]>();
             String[] thisLine = new String[3];
             StringBuffer buf = new StringBuffer();
-            InputStream is = CalendarOp.this.getResources().openRawResource(R.raw.activity16);
+            InputStream is = read(date);
             try {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(is));
                 if (is != null) {
@@ -98,16 +149,19 @@ public class CalendarOp extends ActionBarActivity {
                         getter.setsize(dpWidth);
                         switch (BrLine[1]){
                             case "Green":
-                                getter.setcolor(Color.GREEN/*Color.parseColor("#636161")*/);
+                                getter.setcolor(Color.GREEN);
                                 break;
-                            case "Blue":
-                                getter.setcolor(Color.BLUE);
+                            case "SkyBlue":
+                                getter.setcolor(Color.parseColor("#87ceff"));
                                 break;
-                            case "Red":
-                                getter.setcolor(Color.RED);
+                            case "Purple":
+                                getter.setcolor(Color.parseColor("#9b30ff"));
                                 break;
-                            case "Yellow":
-                                getter.setcolor(Color.YELLOW);
+                            case "Brown":
+                                getter.setcolor(Color.parseColor("#f4a460"));
+                                break;
+                            case "White":
+                                getter.setcolor(Color.parseColor("#ffffff"));
                                 break;
                             default:
                                     getter.setcolor(Color.YELLOW);

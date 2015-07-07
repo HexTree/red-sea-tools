@@ -1,0 +1,3 @@
+1;SkyBlue; Time:8:00 - 22:00;  Taif Trip
+1;Green; Time:20:00 - 22:00;  Social Night Student Center
+1;SkyBlue;  ; Academic Life Information Session

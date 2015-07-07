@@ -55,7 +55,7 @@ public class OrientCalendar extends ActionBarActivity {
                     String newstring = new SimpleDateFormat("EEE, MMM d, yyy").format(date);
                     int day = Integer.parseInt(new SimpleDateFormat("d").format(date));
                     calendarIntent.putExtra("date", newstring);
-                    calendarIntent.putExtra("day", newstring);
+                    calendarIntent.putExtra("day", day);
                     startActivity(calendarIntent);
                 }else{
                     if (date.before(currentday.getTime()) || date.after(currentday.getTime())) {
