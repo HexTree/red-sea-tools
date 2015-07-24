@@ -13,4 +13,35 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <!-- Dark theme. -->
+    <style name="CaldroidDefaultDark" parent="CaldroidDefault">
+        <item name="styleCaldroidViewLayout">@style/CaldroidDefaultDarkCalendarViewLayout</item>
+        <item name="styleCaldroidMonthName">@style/CaldroidDefaultDarkMonthName</item>
+        <item name="styleCaldroidNormalCell">@style/CaldroidDefaultDarkNormalCell</item>
+        <item name="styleCaldroidSquareCell">@style/CaldroidDefaultDarkSquareCell</item>
+        <item name="styleCaldroidGridView">@style/CaldroidDefaultDarkGridView</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCalendarViewLayout">
+        <item name="android:background">@color/caldroid_black</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkMonthName" parent="CaldroidDefaultMonthName">
+        <item name="android:textColor">@color/caldroid_white</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkGridView" parent="CaldroidDefaultGridView">
+        <item name="android:background">@color/caldroid_middle_gray</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCell" parent="CaldroidDefaultCell">
+        <item name="android:textColor">@color/caldroid_middle_gray</item>
+        <item name="android:background">@drawable/background_pattern</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkNormalCell" parent="CaldroidDefaultDarkCell">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkSquareCell" parent="CaldroidDefaultDarkCell" />
 </resources>

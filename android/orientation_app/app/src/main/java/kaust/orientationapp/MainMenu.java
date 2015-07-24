@@ -18,7 +18,7 @@ public class MainMenu extends ActionBarActivity {
     public static String [] prgmNameList={"About","Calendar","Checklist", "Phone book", "Travel","Web links"};
 
     // drawable icons for the buttons go here
-    public static int [] prgmImages={R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home,R.drawable.home};
+    public static int [] prgmImages={R.drawable.about,R.drawable.calendar,R.drawable.checklist,R.drawable.phonebook,R.drawable.travel,R.drawable.weblinks};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

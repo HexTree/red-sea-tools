@@ -35,6 +35,7 @@ public class OrientCalendar extends ActionBarActivity {
     Toast mToast;
 
     CaldroidFragment caldroidFragment = new CaldroidFragment();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +48,29 @@ public class OrientCalendar extends ActionBarActivity {
         final Calendar currentday = Calendar.getInstance();
         SetupCalendar();
         final CaldroidListener listener = new CaldroidListener() {
+
+            @Override
+            public void onChangeMonth(int month, int year) {
+                Calendar newmonth = new GregorianCalendar();
+                HashMap<Date,Integer> abDays = new HashMap<Date,Integer> ();
+                int mmax = 0;
+                if(month == 4 || month == 9 || month == 6 || month == 11){
+                    mmax=31;
+                }else if(month == 2){
+                    mmax = 29;
+                }else{
+                    mmax = 32;
+                }
+
+
+                for(int i=1;i<mmax;i++) {
+                    newmonth.set(2015, month-1, i);
+                    abDays.put(newmonth.getTime(), R.color.caldroid_black);
+                }
+                caldroidFragment.setTextColorForDates(abDays);
+                caldroidFragment.refreshView();
+            }
+
 
             @Override
             public void onSelectDate(Date date, View view) {
@@ -69,34 +93,31 @@ public class OrientCalendar extends ActionBarActivity {
             }
         };
 
+
+
         caldroidFragment.setCaldroidListener(listener);
     }
 
     public void SetupCalendar(){
         Bundle args = new Bundle();
-        Calendar cal = Calendar.getInstance();
         Calendar mincalendar = new GregorianCalendar(2015,Calendar.AUGUST , 1);
-        Calendar maxcalendar = new GregorianCalendar(2015,Calendar.AUGUST , 31);
         Calendar selectedday = new GregorianCalendar();
         args.putInt(CaldroidFragment.MONTH, mincalendar.get(Calendar.MONTH) + 1);
         args.putInt(CaldroidFragment.YEAR, mincalendar.get(Calendar.YEAR));
         HashMap<Date,Integer> orientDays = new HashMap<Date,Integer> ();
         for(int i=9;i<23;i++){
-            selectedday.set(2015,Calendar.AUGUST,i);
-            orientDays.put(selectedday.getTime(),R.drawable.kaust_logo2);
+            selectedday.set(2015, Calendar.AUGUST, i);
+                orientDays.put(selectedday.getTime(), R.drawable.kaust_logo2);
         }
 
 
-        args.putInt(CaldroidFragment.THEME_RESOURCE, com.caldroid.R.style.CaldroidDefaultDark);
+        args.putInt(CaldroidFragment.THEME_RESOURCE, R.style.CaldroidDefaultDark);
         caldroidFragment.setArguments(args);
         caldroidFragment.setBackgroundResourceForDates(orientDays);
-        caldroidFragment.setMaxDate(maxcalendar.getTime());
-        caldroidFragment.setMinDate(mincalendar.getTime());
 
         FragmentTransaction t = getSupportFragmentManager().beginTransaction();
         t.replace(R.id.container_body, caldroidFragment);
         t.commit();
-
 
         }
 
