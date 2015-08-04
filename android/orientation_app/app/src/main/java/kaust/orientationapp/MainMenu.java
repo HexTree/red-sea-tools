@@ -15,10 +15,10 @@ public class MainMenu extends ActionBarActivity {
     GridView gv;
     Context context;
     ArrayList prgmName;
-    public static String [] prgmNameList={"About","Calendar","Checklist", "Phone book", "Travel","Web links"};
+    public static String [] prgmNameList={"About","Calendar","Checklist", "Phone book","Web links", "Travel"};
 
     // drawable icons for the buttons go here
-    public static int [] prgmImages={R.drawable.about,R.drawable.calendar,R.drawable.checklist,R.drawable.phonebook,R.drawable.travel,R.drawable.weblinks};
+    public static int [] prgmImages={R.drawable.about,R.drawable.calendar,R.drawable.checklist,R.drawable.phonebook,R.drawable.weblinks,R.drawable.taxi};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
