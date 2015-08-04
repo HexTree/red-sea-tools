@@ -81,7 +81,7 @@
                 android:value="kaust.orientationapp.Travel" />
         </activity>
         <activity
-            android:name=".TravelLite"
+            android:name=".TravelBus"
             android:label="@string/title_activity_travel"
             android:parentActivityName=".Travel" >
             <meta-data

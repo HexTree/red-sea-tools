@@ -2,8 +2,6 @@ package kaust.orientationapp;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 
 import kaust.orientationapp.maps.MapsWithMeApi;
 

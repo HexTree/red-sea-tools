@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="@string/travel_lite"
+        android:text="@string/travel_bus"
         android:id="@+id/button2"
         android:onClick="open_lite"
         android:layout_weight="0.50" />

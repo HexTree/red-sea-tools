@@ -6,14 +6,14 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 
-public class TravelLite extends ActionBarActivity {
+public class TravelBus extends ActionBarActivity {
 
     WebView wv;
-    String url = "http://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs_notext.htm";
+    String url = "http://kbus.info";
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.travel_lite);
+        setContentView(R.layout.travel_bus);
 
         wv = (WebView) findViewById(R.id.webView);
         WebSettings settings = wv.getSettings();
