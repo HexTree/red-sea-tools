@@ -1,7 +1,10 @@
 package kaust.orientationapp;
 
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -14,8 +17,17 @@ public class Travel extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
 
-        Toast mToast = Toast.makeText(getApplicationContext(), "You must be connected to an internet source to use these.", Toast.LENGTH_LONG);
-        mToast.show();
+        if(isNetworkAvailable() == false) {
+            Toast mToast = Toast.makeText(getApplicationContext(), "You must be connected to an internet source to use these.", Toast.LENGTH_LONG);
+            mToast.show();
+        }
+    }
+
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
     public void open_maps(View view){

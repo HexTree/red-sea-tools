@@ -3,6 +3,7 @@
     package="kaust.orientationapp" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -86,7 +87,7 @@
             android:parentActivityName=".Travel" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="kaust.orientationapp.Travel" />
+                android:value="kaust.orientationapp.TravelBus" />
         </activity>
     </application>
 
