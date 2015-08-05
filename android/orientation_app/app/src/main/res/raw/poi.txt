@@ -1,0 +1,154 @@
+19. Century Burger	A good local burger restaurant	21.6414706	39.130216	Restaurant	667
+Abo Yasser restaurant	African restaurant in an area with many other african restaurants	21.4777281	39.1899502	Restaurant	667
+Al Dawar restaurant	"Egyptian cuisine, in Red Sea mall"	21.62685	39.11193	Restaurant	667
+Al Seddah Restaurant	Yemeni/Saudi cuisine. Thanks to Hisham Barazi and Othman Bahlouli on Facebook for recommending the Lamb Madfoon dish.	21.609344	39.133549	Restaurant	667
+Alfairwz restaurant	A turkish restaurant	21.609399	39.1305579	Restaurant	667
+Applebee's	Restaurant	21.64658	39.131584	Restaurant	667
+Aseil	A traditional saudi restaurant	21.559489	39.142523	Restaurant	667
+Asia restaurant	"Thai food, recommended. [http://www.openstreetmap.org/node/3278289748]"	21.580608	39.161476	Restaurant	667
+Baskin Robbins		22.4044639	39.0762278	Restaurant	667
+Bhar	"Lebanese cuisine, patio on the beach"	22.4053417	39.07645	Restaurant	667
+Brasa de Brazil	Brasilian style barbeque. Meat buffet with a very large variety of different meats to try out. [http://www.openstreetmap.org/node/3051815253]	21.519384	39.164932	Restaurant	667
+Broast chicken carry-out		22.286291	39.112083	Restaurant	667
+Chicken	"Grilled rotisserie, comes with a huge plate of rice and salad"	22.287312	39.113205	Restaurant	667
+Fish restaurant		21.718073	39.103958	Restaurant	667
+Garuda restaurant	"Indonesian cuisine - thanks, Angi"	21.4862929	39.182978	Restaurant	667
+Goodies	"A good food market type restaurant, large dessers/sweets selection. In Stars Avenue Mall. [http://www.openstreetmap.org/node/3278327093]"	21.57295	39.127308	Restaurant	667
+Goodies	"A good food market type restaurant, large dessers/sweets selection. In Coral Mall."	21.550248	39.163132	Restaurant	667
+Koreana restaurant	In a residential area and thus hard to find. Call 660-4769 if lost. [http://www.openstreetmap.org/node/3278307161]	21.535366	39.165337	Restaurant	667
+Linas	"Pasta, sandwiches, patio on the beach"	22.4049139	39.0763444	Restaurant	667
+Makkah restaurant	Indian restaurant in a traditional area	21.5014506	39.1906515	Restaurant	667
+Mayrig restaurant		21.543489	39.172989	Restaurant	667
+Old fish restaurant	Pick your fish from a selection of choices and have them cook it for you. [http://www.openstreetmap.org/node/563240783] [https://github.com/Virtakuono/thuwalguide#al-sayed]	22.290094	39.116193	Restaurant	667
+Pakistani restaurant mk 1	Good curry and fresh-baked naan. [http://www.openstreetmap.org/node/797787714] [https://github.com/Virtakuono/thuwalguide#al-hamad-restaurant]	22.291531	39.117857	Restaurant	667
+Palm Garden restaurant		21.564539	39.111861	Restaurant	667
+Piatto (Etoile Center)		21.575054	39.127277	Restaurant	667
+Pizza Hut	[http://www.openstreetmap.org/node/3077730178]	22.4018222	39.0810806	Restaurant	667
+Sahareej Aden Yemini Restaurant	The best Yemeni restaurant I have been to in Jeddah. The food is incredible! -Sameed	21.578571	39.199306	Restaurant	667
+Sakura	A japanese restaurant	21.5168508	39.1558114	Restaurant	667
+Al Wada'a restaurant		21.588215	39.10574	Restaurant	667
+Shada Indian Restaurant	Favoured by locals	21.55404	39.21054	Restaurant	667
+Shish Tawook	"Delicious Shish Tawook, 4SAR each, [http://www.openstreetmap.org/node/3430569537], [https://github.com/Virtakuono/thuwalguide#al-mullah-juice-shop]"	22.2911981	39.1160332	Restaurant	667
+Shwarma Booth	"4 SAR for a shwarma, 3 SAR for falafel"	21.4857917	39.1828417	Restaurant	667
+Spears	A brazilian restaurant	21.5156605	39.1559482	Restaurant	667
+Subway	[http://www.openstreetmap.org/node/3077730179]	22.4022167	39.0812722	Restaurant	667
+Sushi Yoshi	"Name says it all, thanks, Greg Wickham [http://www.openstreetmap.org/node/3470739293]"	21.7699778	39.1338889	Restaurant	667
+Texas Roadhouse	A steak house [http://www.openstreetmap.org/node/3054019918]	21.553583	39.167641	Restaurant	667
+Thai Thai Restaurant	"Yummy, up scale Thai food! "	21.6097	39.14165	Restaurant	667
+The Butcher Shop & Grill	Steak and grill restaurant	21.5598458	39.1532162	Restaurant	667
+Yummy Yummy	"Casual dining asian, thanks to Alaa Samer Oraif for the reference"	21.608372	39.129469	Restaurant	667
+KAUST: main gate		22.320393	39.138309	Checkpoint	668
+KAUST: Thuwal gate		22.298656	39.104286	Checkpoint	668
+KAUST: vendor gate		22.30348	39.122337	Checkpoint	668
+Exit back of mall of arabia	This is the U-Turn to get back on Madina Rd to KAUST from Mall of Arabia...	21.631161	39.182011	Intersection	669
+Exit for Sultan St.	To Jarir Mall etc.	21.670509	39.125233	Intersection	669
+KAUST exit		22.313972	39.151463	Intersection	669
+Thuwal exit		22.273132	39.125961	Intersection	669
+Abha airport		18.234234	42.657707	Airport terminal	670
+JED - North Terminal	"All airlines other than Saudia, [https://www.openstreetmap.org/way/41399788]"	21.688217	39.143517	Airport terminal	670
+JED - South Terminal	Saudia flights [https://www.openstreetmap.org/way/41399794]	21.670768	39.15019	Airport terminal	670
+Riyadh Airport		24.958281	46.703632	Airport terminal	670
+Afghan souq		21.477522	39.194637	Souq	671
+Al Balad: Fruit and Veggie section	"Lots of fruit and vegetables, a few butcher shops as well"	21.48605	39.1903444	Souq	671
+Alahdal souq		21.4531785	39.2163393	Souq	671
+Albukhariah district	"A place to buy carpets, a really small street but full with carpet shops among other things"	21.4817093	39.1849682	Souq	671
+Alderwazah market	This shop is specialised in traditional furniture and you can find a lot of shops around it that are selling nice accessories	21.5704613	39.189434	Souq	671
+Alsharq souq	"One of the best marketplaces for fabrics, textiles & traditional women's clothes"	21.542983	39.197447	Souq	671
+Animal Market	An interesting article on the animal souq. Open after Asr prayer on Fridays. [http://www.saudigazette.com.sa/index.cfm?method=home.regcon&contentid=20130105148141]	21.377589	39.222586	Souq	671
+Hayat Market	[http://menzene.com/travel/14-lesser-known-must-visit-places-jeddah/]	21.5475958	39.212324	Souq	671
+Hinda Weyah (Ribbon Souq)	"Thanks, Linda"	21.475964	39.183308	Souq	671
+Jeddah International Markets		21.558397	39.170723	Souq	671
+Khaimah market	Good market for traditional women's clothes	21.4737297	39.1972607	Souq	671
+Mahmoud Saeed souq	Excellent market for carpets and furniture	21.5717486	39.1819452	Souq	671
+Rockets souq	"Dont’t worry they are not selling rockets here it’s just a name ;). you can find here almost everything electronics, cloths, food, carpets,furniture, etc."	21.4120009	39.2081129	Souq	671
+Souq Ghorab	A place to buy lamps. Thanks to Aqeel A. Bafadel via Facebook.	21.550807	39.176122	Souq	671
+"Suq Al Alawi, Al Balad District"	"Jeddah 22236, Saudi Arabia"	21.484844	39.188267	Souq	671
+Tuesday market		18.214685	42.496433	Souq	671
+Vegetable market	"Small booths of produce, thanks to Eric Bakken"	21.616687	39.149267	Souq	671
+Vegetable souq	Thanks to Naoufal Uariachi	21.590013	39.221384	Souq	671
+Starbucks	[http://www.openstreetmap.org/node/1499855960]	21.606575	39.14138	Coffeehouse	672
+Starbucks	[http://www.openstreetmap.org/node/1096475665]	21.598234	39.145294	Coffeehouse	672
+Danube	"In Red sea mall, hypermarket."	21.626883	39.110256	Supermarket	673
+Danube		21.548998	39.163054	Supermarket	673
+Garuda shop	Indonesian style groceries - thanks Angi	21.4863278	39.1830732	Supermarket	673
+Grocery store	"Good prices on veggies, (you pay the seller directly for veggies, everything else is paid at the checkout), also get your cleaning supplies, office supplies, household stuff here."	22.286587	39.112556	Supermarket	673
+Hyperpanda	KAEC branch	22.44837	39.10029	Supermarket	673
+Hyperpanda	"In the Roshan mall, large grocery store with dry goods"	21.665804	39.109032	Supermarket	673
+Meed	Convenience store 24/7	22.4024361	39.0814861	Supermarket	673
+Emax	"Electronics, Centrepoint Dome - Amir Sultan Street, Jeddah,Tel: +966 2 6394492"	21.606686	39.141109	Electronics shop	674
+Extra	Electronics and home appliances	21.597956	39.143234	Electronics shop	674
+Hyperpanda	"Hypermarket, a large grocery store"	21.563267	39.204132	Electronics shop	674
+Mobile shop		22.287313	39.112926	Electronics shop	674
+World of Smartphones	Offers repair for all sorts of smartphones [http://www.openstreetmap.org/node/3278252905]	21.6230639	39.1642611	Electronics shop	674
+Al Muhaidib Hardware	"found door chains here. Door lock, handles etc."	21.557421	39.178703	Hardware store	676
+SACO	"Jeddah main store. Address Al Amir Sultan Street, Phone 02-6199967 Fax 02-6199558, P.O Box 20358 - Jeddah 21455, Sat to Thur    08:00a.m / 12:00a.m, Fri      05:00p.m / 12:00a.m"	21.661177	39.121468	Hardware store	676
+SACO	Hardware store [http://saco-ksa.com/]	21.5182478	39.165009	Hardware store	676
+SACO	Hardware store [http://saco-ksa.com/]	21.563448	39.204906	Hardware store	676
+Toyota car dealer		21.633814	39.20396	Cars	677
+Jarir bookstore	"Prince Sultan street Showroom timings: Sat-Thu 9am-12pm, 4.30pm-11pm; Fri 4.30pm-11pm Tel. No. +966 2 420-2050, Fax No.+966 2 420-2060"	21.640196	39.132401	Book store	678
+Jarir bookstore	"on Sar[iy] Street. Showroom Timings: Sat-Thu 9am-2pm, 4.30pm-11pm; Fri 4.30pm-11pm Tel. No. +966 2 682-7666, Fax No.+966 2 698-1120"	21.574816	39.145775	Book store	678
+IKEA	[http://www.openstreetmap.org/way/44536022]	21.557119	39.183277	Furniture shop	679
+Arabian vets		21.602423	39.142441	Veterinary	680
+Eurovets	Vet clinic with Dr. Carlos	21.55168	39.163628	Veterinary	680
+Jeddah Veterinary Clinic		21.5788018	39.1741776	Veterinary	680
+Pet Oasis	Pet shop	21.597027	39.142574	Pet shop	681
+Pet Oasis	Pet shop	21.589628	39.174934	Pet shop	681
+Toys R Us	In Roshan Mall	21.664667	39.108559	Toys	682
+DFSH - Dr. Soliman Fakeeh Hospital	012 6655000 [http://www.openstreetmap.org/node/1497744277]	21.52571	39.16778	Hospital	683
+IMC - International Medical Center Jeddah	PO Box: 2172 Jeddah: 21451 Phone: +966 2 650 9000 Fax: +966 2 653 5045 E-mail: imcinfo@imc.med.sa	21.51348	39.17406	Hospital	683
+Balad police station		21.501102	39.176704	Police station	685
+Dar Al-Hekma University		21.478472	39.210918	University	686
+Effat University		21.478472	39.210918	University	686
+Mechanic	"Also sells engine oil, filters, etc"	22.292561	39.115868	Car repair	687
+Motor vehicle periodic inspection		21.623201	39.194347	Car repair	687
+SABB branch	"Full services, includes a separate ladies section"	22.403745	39.07853	Bank	688
+SABB branch		21.571289	39.1427	Bank	688
+Western Union		21.6180032	39.1783132	Bank	688
+Checkpoint		21.798895	39.120621	Police checkpoint	689
+Checkpoint		21.408072	39.255779	Police checkpoint	689
+US Consulate		21.525021	39.166039	"Embassy, consulate"	690
+Wheels	"[http://www.openstreetmap.org/node/528844974] Sari str, Carries TREK - Sam Abalos (WHEELS) Tel:026981302 Cell:0508691557 (open 09:30-12:00 and 16:30-00:00 from a phone call) overpass along Sari Street. To get to Wheels you need to approach from East and NOT go on the overpass."	21.575739	39.145294	Bike shop	691
+Sewing machine shops		21.477751	39.186604	Sewing shop	692
+Tailor	"[http://www.openstreetmap.org/node/3361193947] The place looks like a dump but they make fair quality trousers for 55 SAR. They tend to overuse interfacing in shirts, tho."	21.482512	39.183121	Sewing shop	692
+Computer shops		21.612471	39.153728	Computers	693
+Computer shops	Farther down the Kahlid Al Waleed Street	21.529419	39.185143	Computers	693
+"Computer shops, many (N)"	This is about the north end of the computer store strip 	21.52029	39.185673	Computers	693
+"Computer shops, many (S)"	This is about the south end of the computer store strip	21.517082	39.186207	Computers	693
+Computer supplies	"Baroom Centre, 6733 Fayd Ar Rida, Jeddah 23213"	21.512861	39.172558	Computers	693
+iZone		21.568754	39.143277	Computers	693
+Lingo Computer Store	Sells Apple products	21.66518	39.10973	Computers	693
+Coral Mall		21.550218	39.162856	Mall	694
+Corniche Commercial Center	"Just go to the 4th or 5th floor and you will find the best accessories, perfumes & cosmetics shops"	21.4855676	39.183564	Mall	694
+Hera International Mall		21.615622	39.152954	Mall	694
+Mall of Arabia	[http://www.openstreetmap.org/way/44213515]	21.632617	39.155707	Mall	694
+Roshan Mall	[http://www.openstreetmap.org/way/111645503]	21.66511	39.11013	Mall	694
+Serafi Mall	[http://www.openstreetmap.org/way/44536024]	21.560456	39.185024	Mall	694
+Stars Avenue Mall	[http://www.openstreetmap.org/way/53202643]	21.57296	39.12837	Mall	694
+This is a mosque evening souq museum and architecture wonder. Neat place to stop by but museum tours must be arranged in advance but contacting Abdraheam at +96650360137. You can also visit [http://www.tripadvisor.com/Attraction_Review-g295419-d4090222-Reviews-Al_Tayebat_International_City-Jeddah_Makkah_Province.html] advisor for some more info.	[http://www.openstreetmap.org/way/111645517]	21.626793	39.109955	Mall	694
+Blue reef divers		21.5488831	39.1634262	Scuba shop	696
+Red Sea divers		21.549417	39.1632579	Scuba shop	696
+Al Wazir Pharmacy	[http://www.openstreetmap.org/node/3077730181]	22.4024833	39.0815916	Pharmacy	700
+Pharmacy	[http://www.openstreetmap.org/way/304768912]	22.287613	39.11319	Pharmacy	700
+Car wash	"SAR 20. They use high pressure hoses, cloth and lots of soap. I tried to haggle for a car wash but after I came back, the car was still unwashed. Perhaps someone with good command of arabic will have more luck. -Juho"	22.287516	39.115707	Car wash	702
+ATM		22.289682	39.114738	ATM	703
+Fabric Souq	Thanks to Jeff King via Facebook	21.586653	39.12936	"Textiles, fabrics"	704
+Textile shop	[http://www.openstreetmap.org/node/3374422974] There is a whole bunch of them in the nearby area	21.4833997	39.1843755	"Textiles, fabrics"	704
+Al Balad: KAUST bus dropoff		21.484464	39.180842	Bus dropoff	705
+DSFH: KAUST bus dropoff		21.5251472	39.1683472	Bus dropoff	705
+Red Sea Mall: KAUST bus dropoff		21.6280767	39.113093	Bus dropoff	705
+Historic mosque		21.257057	40.38657	Mosque	707
+Historic mosque		21.256077	40.391205	Mosque	707
+Juffali mosque	[http://www.openstreetmap.org/relation/1561613]	21.492287	39.185717	Mosque	707
+King Saud Mosque	[http://menzene.com/travel/14-lesser-known-must-visit-places-jeddah/]	21.522261	39.182722	Mosque	707
+Al Tayebat International City 	This is a mosque evening souq museum and architecture wonder. Neat place to stop by but museum tours must be arranged in advance but contacting Abdraheam at +96650360137. You can also visit http://www.tripadvisor.com/Attraction_Review-g295419-d4090222-Reviews-Al_Tayebat_International_City-Jeddah_Makkah_Province.html advisor for some more info.	21.580914	39.176223	Museum	712
+Museum		18.296432	42.757332	Museum	712
+Queen's building	[http://www.openstreetmap.org/way/305372819]	21.484558	39.184053	"Tower building, skyscraper"	714
+Suzuki dealership		21.5876501	39.1764942	Motorbike shop	715
+Jeddah Fish market	Daily hassle over the morning's catch	21.48809	39.17371	Fish market	717
+Climbing site / Boulder	"From Sebastian Wolf via Facebook, 15m UIAA 6+ up to 9 several sides - now with hooks and loops"	21.6988667	39.3470528	Climbing	718
+Moon mountain	Thanks to Greg Wickham	22.053123	39.470894	Climbing	718
+Sugarloaf	"Thx to Gofran Kurdi via Facebook, [http://www.openstreetmap.org/node/3324645783]"	21.1610278	39.957	Climbing	718
+Free parking nearby JED south terminal	Thousand thanks to Abu Sajjad on Facebook	21.67035	39.154538	Parking	736
+Fakieh Aquarium	[http://www.openstreetmap.org/node/2891554426]	21.572158	39.109379	Aquarium	737
+Ajlan Frame Shop	[http://www.openstreetmap.org/node/3100051124#map=20/21.61022/39.13939&layers=H]	21.61022	39.13939	Art shop	738
+aDawliah	For musical instruments and supplies [http://www.openstreetmap.org/node/3355298072]	21.5589177	39.1708309	Music shop	739
