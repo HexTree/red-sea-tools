@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/background_pattern">
+    <RelativeLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:background="@drawable/background_pattern">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/lcalendar"
+            android:orientation="vertical"
+            android:layout_alignLeft="@+id/lphone"
+            android:layout_alignStart="@+id/lphone"
+            android:layout_marginTop="20dp">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/calendar"
+                android:background="@drawable/calendar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Calendar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ltravel"
+            android:layout_alignTop="@+id/lphone"
+            android:orientation="vertical"
+            android:layout_alignLeft="@+id/lchecklist"
+            android:layout_alignStart="@+id/lchecklist">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/travel"
+                android:background="@drawable/travel" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Travel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lphone"
+            android:layout_below="@+id/lcalendar"
+            android:layout_toLeftOf="@+id/ltravel"
+            android:layout_toStartOf="@+id/ltravel"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/phone"
+                android:background="@drawable/phonebook"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Contacts" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labout"
+            android:layout_alignTop="@+id/lweblist"
+            android:layout_toEndOf="@+id/lphone"
+            android:layout_toRightOf="@+id/lphone"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/about"
+                android:background="@drawable/about" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="About" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lweblist"
+            android:layout_below="@+id/ltravel"
+            android:layout_toLeftOf="@+id/labout"
+            android:layout_toStartOf="@+id/labout"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/weblist"
+                android:background="@drawable/weblinks"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Web Links" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lchecklist"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="55dp"
+            android:layout_alignTop="@+id/lcalendar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/checklist"
+                android:background="@drawable/checklist" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Check List" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

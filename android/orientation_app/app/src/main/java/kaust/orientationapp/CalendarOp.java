@@ -135,13 +135,13 @@ public class CalendarOp extends ActionBarActivity {
                     while ((thisLine[0] = reader.readLine()) != null) {
                         buf.append(thisLine[0] + "\n");
                         String[] BrLine = thisLine[0].split(";");
-                        if (Integer.parseInt(BrLine[0]) > 1) {
-                            int t = 1;
-                            while (t < Integer.parseInt(BrLine[0])) {
-                                thisLine[t] = reader.readLine();
-                                t = t +1;
-                            }
-                        }
+//                        if (Integer.parseInt(BrLine[0]) > 1) {
+//                            int t = 1;
+//                            while (t < Integer.parseInt(BrLine[0])) {
+//                                thisLine[t] = reader.readLine();
+//                                t = t +1;
+//                            }
+//                        }
                         Plist getter = new Plist();
                         getter.setitems1(thisLine[0]);
                         getter.setitems2(thisLine[1]);

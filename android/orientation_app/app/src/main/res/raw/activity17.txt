@@ -1,14 +1,14 @@
 1;Purple; Time:9:30 - 10:00; Academic Success Keynote: Dr. Mootaz Elnozahy
 1;Green; Time:10:00 - 10:15; Orientation Overview
-1;Green; Time:10:15 - 11:30; Adjusting to KAUST Culture ;Cross-cultural presentation and panel discussion (faculty, students, and staff):; Personal stories of transition to KAUST and suggestions; for managing  the challenges of cultural adjustment
+1;Green; Time:10:15 - 11:30; Adjusting to KAUST Culture Cross-cultural presentation and panel discussion (faculty, students, and staff): Personal stories of transition to KAUST and suggestions for managing  the challenges of cultural adjustment
 1;White; Time:11:30 - 12:00; -B R E A K-
-1;Purple; Time:12:00 - 13:30; Building an inclusive community amongst diverse graduate students in; an international university setting; Mr. Mark Vollans
-1;Brown; Time:13:30 - 14:15;   -Light Lunch "Pizza Day"- ; To be served in front of divisional orientation locations; Academic Program Orientation: All students must be in sessions by 2:30 pm
-3;SkyBlue; Time:14:30 - 17:00; PSE ;Bldg 9 Lecture Hall 2;Chemical Sciences;Chemical and Biological Eng.;Earth Science and Eng.;Material Sci and Eng.;Mechanical Eng.
-    CEMSE;Bldg 9 Lecture Hall 1;Applied Mathematics & Computational Science;Computer Science;Electrical Eng.
-    BESE ;Bldg 03 Auditorium 0215; Bioscience; Environmental Science and Eng.;Marine Science;Plant Science
+1;Purple; Time:12:00 - 13:30; Building an inclusive community amongst diverse graduate students in an international university setting Mr. Mark Vollans
+1;Brown; Time:13:30 - 14:15;   -Light Lunch "Pizza Day"-  To be served in front of divisional orientation locations Academic Program Orientation: All students must be in sessions by 2:30 pm
+1;SkyBlue; Time:14:30 - 17:00; PSE: Bldg 9 Lecture Hall 2; Chemical Sciences Chemical and Biological Eng. Earth Science and Eng. Material Sci and Eng. Mechanical Eng.
+1;SkyBlue; Time:14:30 - 17:00; CEMSE: Bldg 9 Lecture Hall 1;Applied Mathematics & Computational Science, Computer Science, Electrical Eng.
+1;SkyBlue; Time:14:30 - 17:00; BESE: Bldg 03 Auditorium 0215; Bioscience, Environmental Science and Eng.,Marine Science,Plant Science
 1;White; Time:17:00 - 18:45;  -B R E A K-
 1;Purple; Time:19:00 - 19:15; Welcome by Dr. Brian Moran, Dean of Graduate Affairs
-1;Brown; Time:19:15 - 20:00; Group Dinner;Theme: Asian;Conference Center
-1;Green; Time:20:00 - 22:00; Icebreakers and Games;  Facilitated By: Graduate Student Orientation Leaders
+1;Brown; Time:19:15 - 20:00; Group Dinner Theme: Asian, Conference Center
+1;Green; Time:20:00 - 22:00; Icebreakers and Games Facilitated By: Graduate Student Orientation Leaders
 1;Green;  ; Student & Community Life Information Event

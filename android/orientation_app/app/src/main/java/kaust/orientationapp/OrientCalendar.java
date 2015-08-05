@@ -107,7 +107,7 @@ public class OrientCalendar extends ActionBarActivity {
         HashMap<Date,Integer> orientDays = new HashMap<Date,Integer> ();
         for(int i=9;i<23;i++){
             selectedday.set(2015, Calendar.AUGUST, i);
-                orientDays.put(selectedday.getTime(), R.drawable.kaust_logo2);
+                orientDays.put(selectedday.getTime(), R.color.light_blue);
         }
 
 

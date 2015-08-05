@@ -1,9 +1,9 @@
-2;SkyBlue; Time:8:00 - 12:30; "Academic Assessment for select students; who arrived after  August 16th.; Please see details on back of schedule. "
-        Time:9:00 - 12:30; Lab Safety Training; Conference Center Hall 1
-1;Green; Time:12:30 - 13:00;  Class Photos: Group & Ind. Photos; Conference Center
-1;Brown; Time:13:00 - 14:00;   -Light Lunch - ; Conference Center
-1;SkyBlue; Time:14:30 - 15:15;Math Refresher 1 ;Bldg 9 Lecture Hall 1
-1;SkyBlue; Time:15:15 - 16:30;Math Refresher 2 ;Bldg 9 Lecture Hall 1
+1;SkyBlue; Time:8:00 - 12:30; "Academic Assessment for select students who arrived after  August 16th. Please see details on back of schedule. "
+1;SkyBlue; Time:9:00 - 12:30; Lab Safety Training Conference Center Hall 1
+1;Green; Time:12:30 - 13:00; Class Photos: Group & Ind. Photos Conference Center
+1;Brown; Time:13:00 - 14:00;   -Light Lunch -  Conference Center
+1;SkyBlue; Time:14:30 - 15:15; Math Refresher 1 Bldg 9 Lecture Hall 1
+1;SkyBlue; Time:15:15 - 16:30; Math Refresher 2 Bldg 9 Lecture Hall 1
 1;White; Time:16:30 - 17:00;  -B R E A K-
-1;Green; Time:17:00 - 22:00; Orientation Expo & Bazaar; "Expo Exhibitors include Graduate Student Groups, ;KAUST Offices,  Service Providers,; and Retail Companies.;Student Center";"Bazaar with live entertainment, retail and activity booths; food stations and giveaways.;Student Center"
-1;Brown;  ; Food Related Event
+1;Green; Time:17:00 - 22:00; Orientation Expo & Bazaar "Expo Exhibitors include Graduate Student Groups, KAUST Offices,  Service Providers, and Retail Companies. Student Center", "Bazaar with live entertainment, retail and activity booths food stations and giveaways. Student Center"
+1;Brown;   ; Food Related Event
