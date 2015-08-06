@@ -1,0 +1,9 @@
+1;Brown; Time:8:00 - 9:00; Group Breakfast; Level 3, Student Centre
+1;Brown; Time:8:00 - 10:00; Spouse Breakfast; Level 4, Student Centre
+1;Yellow; Time:9:00 - 10:30; Core Labs Tour
+1;Yellow; Time:10:00 - 11:30; New Beginnings: Welcome to KAUST Cultural Orientation; Fellowship Hall, Student Centre
+1;Yellow; Time:10:30 - 12:00; Academic Campus Tour
+1;Green; Time:11:00 - 12:00; Opening of Discover Saudi Arabia Exhibition; University Library
+1;Yellow; Time:12:00 - 12:30; Student Life Forum Training; Room 4223, Student Centre
+1;Yellow; Time:12:00 - 14:00; Introduction to Innovation & Entrepreneurship; Fellowship Hall, Student Centre
+1;Brown; Time:12:30 - 13:00; Group Light Lunch; Level 3, Student Centre

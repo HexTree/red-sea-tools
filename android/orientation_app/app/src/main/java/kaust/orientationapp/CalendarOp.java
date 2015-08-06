@@ -54,25 +54,25 @@ public class CalendarOp extends ActionBarActivity {
         InputStream ist = null;
         switch (day){
             case 9:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity9);
                 break;
             case 10:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity10);
                 break;
             case 11:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity11);
                 break;
             case 12:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity12);
                 break;
             case 13:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity13);
                 break;
             case 14:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity14);
                 break;
             case 15:
-                ist = CalendarOp.this.getResources().openRawResource(R.raw.test);
+                ist = CalendarOp.this.getResources().openRawResource(R.raw.activity15);
                 break;
             case 16:
                 ist = CalendarOp.this.getResources().openRawResource(R.raw.activity16);
@@ -151,11 +151,17 @@ public class CalendarOp extends ActionBarActivity {
                             case "Green":
                                 getter.setcolor(Color.GREEN);
                                 break;
+                            case "Yellow":
+                                getter.setcolor(Color.parseColor("#ffffcc"));
+                                break;
                             case "SkyBlue":
                                 getter.setcolor(Color.parseColor("#87ceff"));
                                 break;
                             case "Purple":
                                 getter.setcolor(Color.parseColor("#9b30ff"));
+                                break;
+                            case "Pink":
+                                getter.setcolor(Color.parseColor("#ff99ff"));
                                 break;
                             case "Brown":
                                 getter.setcolor(Color.parseColor("#f4a460"));
@@ -164,7 +170,7 @@ public class CalendarOp extends ActionBarActivity {
                                 getter.setcolor(Color.parseColor("#ffffff"));
                                 break;
                             default:
-                                    getter.setcolor(Color.YELLOW);
+                                getter.setcolor(Color.YELLOW);
                                 break;
                         }
                         getter.setnum(Integer.parseInt(BrLine[0]));

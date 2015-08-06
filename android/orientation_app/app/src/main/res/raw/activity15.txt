@@ -1,0 +1,6 @@
+1;Brown; Time:8:00 - 9:00; Group Breakfast; Level 3, Student Centre
+1;Pink; Time:8:30 - 16:00; Snorkelling Trip
+1;Yellow; Time:10:00 - 11:30; New Beginnings: Welcome to KAUST Cultural Orientation; Fellowship Hall, Student Centre
+1;Yellow; Time:10:00 - 12:00; KAUST Discovery Tour
+1;Yellow; Time:12:00 - 12:30; Student Life Forum Training; Room 4223, Student Centre
+1;Brown; Time:12:30 - 13:30; Group Light Lunch; Level 3, Student Centre

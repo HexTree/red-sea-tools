@@ -1,0 +1,5 @@
+1;Brown; Time:8:00 - 9:00; Group Breakfast; Level 3, Student Centre
+1;Yellow; Time:10:00 - 12:00; KAUST Discovery Tour
+1;Yellow; Time:10:00 - 12:00; Introduction to Innovation & Entrepreneurship; Fellowship Hall, Student Centre
+1;Yellow; Time:12:00 - 12:30; Egg Drop & FalconViz; Student Centre Plaza
+1;Brown; Time:12:30 - 13:30; Group Light Lunch; Level 3, Student Centre
