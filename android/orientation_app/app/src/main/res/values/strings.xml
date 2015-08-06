@@ -5,14 +5,15 @@
     <string name="title_activity_about">About</string>
     <string name="title_activity_calendar">Orientation Calendar</string>
     <string name="title_activity_checklist">Orientation Checklist</string>
-    <string name="title_activity_phonebook">Phone Book</string>
+    <string name="title_activity_phonebook">Contacts</string>
     <string name="title_activity_travel">Travel</string>
     <string name="title_activity_weblink">Web Links</string>
     <string name="add">Add</string>
     <string name="travel_maps">Travel maps</string>
     <string name="travel_bus">Bus planner</string>
-    <string  name="mwm_should_be_installed">Offline maps are required to proceed. We have partnered with MAPS.ME to provide you with offline maps of KAUST, Jeddah and beyond!\nTo continue please download the app:</string>
+    <string  name="mwm_should_be_installed">Offline maps are required to proceed. We have partnered with MAPS.ME to provide you with offline maps of KAUST, Jeddah and beyond!\nTo continue, please download the app. After downloading the required data, you will be able to use it without an internet connection.</string>
     <string  name="down_pro">Download MAPS.ME</string>
     <string  name="url_pro">http://maps.me/get</string>
     <string name="month">August 2015</string>
+    <string name="about">To be added</string>
 </resources>

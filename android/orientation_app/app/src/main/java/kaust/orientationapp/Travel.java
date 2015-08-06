@@ -17,8 +17,8 @@ public class Travel extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
 
-        if(isNetworkAvailable() == false) {
-            Toast mToast = Toast.makeText(getApplicationContext(), "You must be connected to an internet source to use these.", Toast.LENGTH_LONG);
+        if(!isNetworkAvailable()) {
+            Toast mToast = Toast.makeText(getApplicationContext(), "You must be connected to an internet source to use these live.", Toast.LENGTH_LONG);
             mToast.show();
         }
     }

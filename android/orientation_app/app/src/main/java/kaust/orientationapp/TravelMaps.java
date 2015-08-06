@@ -14,7 +14,7 @@ public class TravelMaps extends ActionBarActivity {
     void showMultiplePoints()
     {
         // Open tab separated file
-        String[] ListPoi = null;
+        String[] ListPoi;
         try {
             Resources ResFiles = getResources();
             InputStream ReadDbFile = ResFiles.openRawResource(R.raw.poi);
@@ -23,9 +23,9 @@ public class TravelMaps extends ActionBarActivity {
             String DbLines = new String(Bytes);
             ListPoi = DbLines.split("\n"); // Split the content by line
         } catch (Exception e) {
+            return;
         }
 
-        // Convert objects to MMWPoints
         final MWMPoint[] points = new MWMPoint[ListPoi.length];
         for (int i = 0; i < ListPoi.length; i++)
         {

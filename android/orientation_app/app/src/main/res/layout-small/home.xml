@@ -31,7 +31,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:text="About" />
+                    android:text="@string/title_activity_about" />
             </LinearLayout>
 
             <LinearLayout
@@ -77,7 +77,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:text="Check List" />
+                    android:text="Checklist" />
             </LinearLayout>
 
             <LinearLayout
@@ -96,7 +96,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:text="Contacts" />
+                    android:text="@string/title_activity_phonebook" />
             </LinearLayout>
 
             </TableRow>
@@ -123,7 +123,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:text="Travel" />
+                    android:text="@string/title_activity_travel" />
             </LinearLayout>
 
             <LinearLayout
@@ -142,7 +142,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_gravity="center"
                     android:textStyle="bold"
-                    android:text="Web Links" />
+                    android:text="@string/title_activity_weblink" />
             </LinearLayout>
 
 
