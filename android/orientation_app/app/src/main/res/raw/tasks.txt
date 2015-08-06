@@ -1,5 +1,11 @@
-Housing,Go to the Housing Office on level 2 of the Student Centre.
-Medical,No description
-ID,No description
-IQAMA,No description
-SAMBA,No description
+I-hub,Check in at the I-hub reception desk level 2 of the Student Centre.
+Welcome pack,Collect your welcome pack from the i-hub and check the contents.
+Student Life Forum,Register in the Student Life Forum at the i-hub terminals.
+Housing,Go to the Housing Office room 2205 Student Centre.
+Finance,Go to the Finance Office room 2206 Student Centre.
+Government Affairs,Collect your IQAMA at room 2208 Student Centre.
+Sim card,Collect your sim card from Mia on level 2 of the Student Centre.
+ID,Collect your ID from ID Office on the spine of the campus.
+SAMBA,After you have your IQAMA open a bank account at the Samba branch near Discovery Square.
+FedEx,After you have your IQAMA open a FedEx pigeonhole at the FedEx branch near Discovery Square.
+Advisor,Arrange a meeting with your assigned academic advisor.
