@@ -2,3 +2,8 @@
 1;Yellow; Time:9:00 - 10:30; Core Labs Tour
 1;Yellow; Time:10:30 - 12:00; Academic Campus Tour
 1;Brown; Time:12:30 - 13:30; Group Light Lunch; Level 3, Student Centre
+1;Yellow; Time:14:00 - 16:00; New Beginnings: Welcome to KAUST Cultural Orientation Fellowship Hall, Student Center
+1;Brown; Time:16:00 - 16:30; Afternoon Tea Level 3, Student Center
+1;Yellow; Time:16:30 - 18:30; KAUST Discovery Tour
+1;Brown; Time:19:00 - 20:00; Group Dinner, Campus Diner
+1;Yellow; Time:20:00 - 22:00; Ice Breakers & Games by Orientation Leaders Student Center
