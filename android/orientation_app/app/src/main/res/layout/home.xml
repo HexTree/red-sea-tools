@@ -1,67 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/background_pattern">
+    android:orientation="vertical" android:background="@drawable/background_pattern">
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/calendar"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/calendar"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/phone"
-        android:layout_alignStart="@+id/phone"
-        android:layout_marginRight="30dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"  android:stretchColumns="*" >
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/travel"
-        android:background="@drawable/taxi"
-        android:layout_alignTop="@+id/phone"
-        android:layout_alignLeft="@+id/checklist"
-        android:layout_alignStart="@+id/checklist" />
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/phone"
-        android:layout_below="@+id/calendar"
-        android:layout_toLeftOf="@+id/travel"
-        android:layout_toStartOf="@+id/travel"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/phonebook"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/about"
+                    android:background="@drawable/about" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="About" />
+            </LinearLayout>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/about"
-        android:background="@drawable/about"
-        android:layout_alignTop="@+id/weblist"
-        android:layout_toEndOf="@+id/phone"
-        android:layout_toRightOf="@+id/phone" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/calendar"
+                    android:background="@drawable/calendar"/>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/weblist"
-        android:background="@drawable/weblinks"
-        android:layout_below="@+id/travel"
-        android:layout_toLeftOf="@+id/about"
-        android:layout_toStartOf="@+id/about"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Calendar" />
+            </LinearLayout>
 
-    <ImageButton
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:id="@+id/checklist"
-        android:background="@drawable/checklist"
-        android:layout_marginRight="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_alignTop="@+id/calendar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-</RelativeLayout>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/checklist"
+                    android:background="@drawable/checklist" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Check List" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/phone"
+                    android:background="@drawable/phonebook"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Contacts" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/travel"
+                    android:background="@drawable/travel" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Travel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/weblist"
+                    android:background="@drawable/weblinks"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Web Links" />
+            </LinearLayout>
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
