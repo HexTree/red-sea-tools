@@ -12,4 +12,4 @@
 1;Purple; Time:19:00 - 19:15; Welcome by Dr. Faizi Ghodsi; Director of Graduate Development and Services
 1;Brown; Time:19:15 - 20:00; Group Dinner Theme: Mexican / Latin American; Conference Centre
 1;Yellow; Time:20:00 - 20:45; Life at KAUST; Facilitated by Student Orientation Leaders
-1;Green; Time:20:45 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders
+1;Green; Time:20:45 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders; Marshmallow challenge

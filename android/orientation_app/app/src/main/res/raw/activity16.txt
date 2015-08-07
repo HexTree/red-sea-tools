@@ -8,4 +8,4 @@
 1;SkyBlue; Time:14:00 - 18:30; Divisional Academic Assessment for students who arrived by August 16th
 1;Purple; Time:19:00 - 19:15; Welcome by Dr. James Calvin, Vice President for Academic Affairs
 1;Brown; Time:19:15 - 20:00; Group Dinner Theme: International; Conference Centre
-1;Green; Time:20:00 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders
+1;Green; Time:20:00 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders; Table Tennis and Billiards competition; Level 4, Student Centre

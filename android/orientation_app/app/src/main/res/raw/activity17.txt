@@ -10,4 +10,4 @@
 1;White; Time:17:00 - 18:45;  -B R E A K-
 1;Purple; Time:19:00 - 19:15; Welcome by Dr. Brian Moran, Dean of Graduate Affairs
 1;Brown; Time:19:15 - 20:00; Group Dinner Theme: Asian; Conference Centre
-1;Green; Time:20:00 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders
+1;Green; Time:20:00 - 22:00; Icebreakers and Games facilitated by Graduate Student Orientation Leaders; Quiz night
