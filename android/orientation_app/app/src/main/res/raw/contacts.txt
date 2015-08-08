@@ -1,3 +1,14 @@
+Student Information Hub,0128083412,hui.zhang@kaust.edu.sa,person
+Student Life Forum Helpdesk,0128083402,sana.hadri@kaust.edu.sa,person
+Graduate Residential Life,0128083417,reslife@kaust.edu.sa,person
+Student Housing Maintenance,0128086373,samc@kaust.edu.sa,person
+Facilities and Community Helpdesk,0128080959,fchelpdesk@kaust.edu.sa,person
+IT Helpdesk,0128080910,ithelpdesk@kaust.edu.sa,person
+Community Information Centre,0128086565,,person
+Mail and Courier,0128024039,mailandcourier@kaust.edu.sa,person
+Taxi: Saudi Oger,0128085623,kausttaxi@kaust.edu.sa,person
+Taxi: Hanco,0128085647,hancotransport@kaust.edu.sa,person
+Taxi: Samara,0128085617,samaratransport@kaust.edu.sa,person
+Medical Clinic,0128084111,patient-relation@kaust.edu.sa,person
 Emergency Services,0128080911,,person
-Facilities Helpdesk,0128080959,fchelpdesk@kaust.edu.sa,person
-Hanco taxi,0507541942,hancotransport@kaust.edu.sa,person
+Government Affairs Emergency,0124701111,gasc@kaust.edu.sa,person
