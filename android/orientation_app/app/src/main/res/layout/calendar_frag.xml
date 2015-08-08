@@ -3,5 +3,5 @@
         android:id="@+id/container_body"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/background_pattern"
+        android:background="@drawable/background"
         />
