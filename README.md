@@ -25,13 +25,3 @@ This is a collaborative effort, anyone is welcome to work on the tasks and submi
 For those who do not code, you can also discuss on the issues page. Not all the discussions there will be code-specific, you can still discuss ideas about the app in general.
 
 Any questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
-
-**Some screenshots of basic menus:**
-
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8508102/67793962-226b-11e5-83d2-e931e303a020.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8417168/604d8df2-1eb3-11e5-9cff-4ebab4f842a3.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8221473/d797a172-1567-11e5-829b-875e39e417b6.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8245653/10f319d8-163a-11e5-8b98-bc43c66fc839.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8245432/2fe8f1bc-1637-11e5-9920-a096fcec8fdd.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8508125/91191124-226c-11e5-9c18-c83d09091421.png)
-![alt tag](https://cloud.githubusercontent.com/assets/7933725/8508093/04895b98-226b-11e5-9fbf-c882ca042f39.png)
