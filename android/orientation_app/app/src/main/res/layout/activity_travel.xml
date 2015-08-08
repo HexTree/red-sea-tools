@@ -12,7 +12,8 @@
         android:text="@string/travel_maps"
         android:id="@+id/button1"
         android:onClick="open_maps"
-        android:layout_weight="0.50" />
+        android:layout_weight="0.50"
+        android:background="@color/caldroid_light_red"/>
 
     <Button
         android:layout_width="match_parent"
@@ -21,5 +22,6 @@
         android:text="@string/travel_bus"
         android:id="@+id/button2"
         android:onClick="open_lite"
-        android:layout_weight="0.50"/>
+        android:layout_weight="0.50"
+        android:background="@color/light_blue"/>
 </LinearLayout>

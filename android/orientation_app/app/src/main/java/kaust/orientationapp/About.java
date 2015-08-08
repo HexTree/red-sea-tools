@@ -1,7 +1,9 @@
 package kaust.orientationapp;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.widget.TextView;
 
 
 /**
@@ -14,5 +16,8 @@ public class About extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         //sets the main layout of the activity
         setContentView(R.layout.about);
+        TextView txt = (TextView) findViewById(R.id.abouttext);
+        Typeface font = Typeface.createFromAsset(getAssets(), "Chantelli_Antiqua.ttf");
+        txt.setTypeface(font);
     }
 }
