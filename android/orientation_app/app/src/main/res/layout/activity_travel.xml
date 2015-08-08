@@ -13,7 +13,7 @@
         android:id="@+id/button1"
         android:onClick="open_maps"
         android:layout_weight="0.50"
-        android:background="@color/caldroid_light_red"/>
+        android:background="@color/light_green"/>
 
     <Button
         android:layout_width="match_parent"

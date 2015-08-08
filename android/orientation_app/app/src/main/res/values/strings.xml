@@ -15,7 +15,7 @@
     <string  name="down_pro">Download MAPS.ME</string>
     <string  name="url_pro">http://maps.me/get</string>
     <string name="month">August 2015</string>
-    <string name="about1">Hello, Welcome and thank you for downloading the Orientation 2015 app! This is an information app made for students, by students.\n\nWe would like to thank the following people:\n\n</string>
-    <string name="about2"> * Liam Mencel and Uchenna Akujuobi for app development.\n * Yiannis Hadjimichael for graphic design.\n * Juho Happola for support with the Travel Maps.\n * Andrew Yip for developing the Bus planner web app.\n * And finally Todd Pietruszka and Paul Bennett for support from Graduate Services.\n\n</string>
+    <string name="about1">Hello, welcome and thank you for downloading the Orientation 2015 app! This is an information app made for students, by students.</string>
+    <string name="about2">We would like to thank the following people:\n\n * Liam Mencel and Uchenna Akujuobi for app development.\n * Yiannis Hadjimichael for graphic design.\n * Juho Happola for support with the Travel Maps.\n * Andrew Yip for developing the Bus planner web app.\n * And finally Todd Pietruszka and Paul Bennett for support from Graduate Services.</string>
     <string name="about3">If you have any questions, problems or feedback regarding the app, please contact:\nliam.mencel@kaust.edu.sa</string>
 </resources>

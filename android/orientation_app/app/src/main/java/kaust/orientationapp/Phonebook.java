@@ -20,8 +20,8 @@ public class Phonebook extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phonebook);
 
-        int[] Icon = {R.drawable.i_hub,R.drawable.student_life,R.drawable.student_life,R.drawable.maintenance,R.drawable.community_info,
-                R.drawable.it,R.drawable.community_info,R.drawable.mail,R.drawable.taxi,R.drawable.taxi,R.drawable.taxi,R.drawable.medical,R.drawable.emergency,R.drawable.goverment_affairs};
+        int[] Icon = {R.drawable.i_hub,R.drawable.student_life,R.drawable.residental_life,R.drawable.maintenance,R.drawable.helpdesk,
+                R.drawable.it,R.drawable.community_info,R.drawable.mail,R.drawable.taxi,R.drawable.taxi,R.drawable.taxi,R.drawable.medical,R.drawable.emergency,R.drawable.government_affairs};
 
         try {
             Resources ResFiles = getResources();
