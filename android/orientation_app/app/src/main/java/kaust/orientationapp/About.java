@@ -16,8 +16,12 @@ public class About extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         //sets the main layout of the activity
         setContentView(R.layout.about);
-        TextView txt = (TextView) findViewById(R.id.abouttext);
+        TextView txt = (TextView) findViewById(R.id.abouttext1);
+        TextView txt2 = (TextView) findViewById(R.id.abouttext2);
+        TextView txt3 = (TextView) findViewById(R.id.abouttext3);
         Typeface font = Typeface.createFromAsset(getAssets(), "Chantelli_Antiqua.ttf");
         txt.setTypeface(font);
+        txt2.setTypeface(font);
+        txt3.setTypeface(font);
     }
 }
