@@ -20,6 +20,8 @@ public class Phonebook extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phonebook);
 
+        int[] Icon = {R.drawable.i_hub,R.drawable.student_life,R.drawable.student_life,R.drawable.maintenance,R.drawable.community_info,
+                R.drawable.it,R.drawable.community_info,R.drawable.mail,R.drawable.taxi,R.drawable.taxi,R.drawable.taxi,R.drawable.medical,R.drawable.emergency,R.drawable.goverment_affairs};
 
         try {
             Resources ResFiles = getResources();
@@ -33,11 +35,13 @@ public class Phonebook extends ActionBarActivity {
 
         ListView lvPhone = (ListView)findViewById(R.id.listPhone);
         List<Contact> listContact = new ArrayList<>();
+        int i=0;
         for (String contact : ListContacts){
             String[] fields = contact.split(",");
             listContact.add(new Contact(
-                    BitmapFactory.decodeResource(getResources(), R.drawable.personal),
+                    BitmapFactory.decodeResource(getResources(), Icon[i]),
                     fields[0], fields[1], fields[2]));
+            i++;
         }
 
         PhonebookAdapter adapter = new PhonebookAdapter(this, listContact);
