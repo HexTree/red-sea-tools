@@ -32,8 +32,9 @@ public class Checklist extends ActionBarActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         settings = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        mToast = Toast.makeText(getApplicationContext(), "", Toast.LENGTH_LONG);
-
+        mToast = Toast.makeText(getApplicationContext(), "Tap on each tab for details.", Toast.LENGTH_LONG);
+        mToast.show();
+        
         try {
             Resources ResFiles = getResources();
             InputStream ReadDbFile = ResFiles.openRawResource(R.raw.tasks);

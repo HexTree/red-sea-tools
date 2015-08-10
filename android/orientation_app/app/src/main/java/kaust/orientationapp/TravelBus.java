@@ -9,7 +9,7 @@ import android.webkit.WebView;
 public class TravelBus extends ActionBarActivity {
 
     WebView wv;
-    String url = "http://kbus.info";
+    String url = "http://camelab.net/kbus/";
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
