@@ -1,13 +1,13 @@
 # orientation-app
 
-In August we released an app containing useful tools for the incoming students. The goal now is to convert this to a more general-purpose app including, but not limited to:
+In August we released an app containing useful tools for the incoming students. The goal now is to convert this to a more general-purpose app. Including, but not limited to:
 
 - Phone book - Contains the phone numbers of all important contacts. By tapping on the screen you can add any number of your choice to your phone or sim card without having to type the details in by hand.
-- Travel maps - maps.me package which gives high detailed maps of Jeddah and Saudi Arabia, and includes all points of interest contributed by the community. Uses data from https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm
+- Travel maps - maps.me package which gives detailed maps of Jeddah and Saudi Arabia, and includes all points of interest contributed by the community. Uses data from https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm
 - kbus - Based on http://kbus.info/ , highly detailed bus scheduling and planner app.
 - Web Links - List of important websites
 
-This is entirely open sourced, so any help would be appreciated. If you have questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
+This is entirely open source, so any contribution would be appreciated. If you have questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
 
 Screenshots of old version:
 
