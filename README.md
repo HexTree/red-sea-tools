@@ -6,6 +6,8 @@ In August we released an app containing useful tools for the incoming students. 
 - Travel maps - maps.me package which gives high detailed maps of Jeddah and Saudi Arabia, and includes all points of interest contributed by the community. Uses data from https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm
 - kbus - Based on http://kbus.info/ , highly detailed bus scheduling and planner app.
 - Web Links - List of important websites
+- 
+This is entirely open sourced, so any help would be appreciated. If you have questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
 
 Screenshots of old version:
 
@@ -15,4 +17,4 @@ Screenshots of old version:
 ![alt tag](https://cloud.githubusercontent.com/assets/7933725/9691746/35916150-534d-11e5-8a08-5efded62049a.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/7933725/9691747/359446e0-534d-11e5-838b-9c4e9f734063.png)
 
-This is entirely open sourced, so any help would be appreciated. If you have questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
+
