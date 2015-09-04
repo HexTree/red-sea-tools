@@ -5,6 +5,7 @@ In August we released an app containing useful tools for the incoming students. 
 - Phone book - Contains the phone numbers of all important contacts in KAUST. By tapping on the screen you can add any number of your choice to your phone or sim card without having to type the details in by hand.
 - Travel maps - maps.me package which gives high detailed maps of Jeddah and Saudi Arabia, and includes all points of interest contributed by the community. Uses data from https://rawgit.com/Virtakuono/.kml-repository/master/JeddahPOIs.htm
 - kbus - Based on http://kbus.info/ , highly detailed bus scheduling and planner app.
+- Web Links - List of important websites
 
 Screenshots of old version:
 
