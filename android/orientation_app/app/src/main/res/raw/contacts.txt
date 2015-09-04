@@ -1,5 +1,3 @@
-Student Information Hub,0128083412,hui.zhang@kaust.edu.sa,person
-Student Life Forum Helpdesk,0128083402,sana.hadri@kaust.edu.sa,person
 Graduate Residential Life,0128083417,reslife@kaust.edu.sa,person
 Student Housing Maintenance,0128086373,samc@kaust.edu.sa,person
 Facilities and Community Helpdesk,0128080959,fchelpdesk@kaust.edu.sa,person

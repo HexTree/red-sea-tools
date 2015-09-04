@@ -41,56 +41,6 @@
                 <ImageButton
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:id="@+id/calendar"
-                    android:background="@drawable/calendar"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:text="Calendar" />
-            </LinearLayout>
-            
-            </TableRow>
-
-
-        <TableRow
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center">
-                <ImageButton
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:id="@+id/checklist"
-                    android:background="@drawable/checklist" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:text="Checklist" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center">
-                <ImageButton
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
                     android:id="@+id/phone"
                     android:background="@drawable/phonebook"/>
                 <TextView
@@ -103,6 +53,8 @@
             </LinearLayout>
             
             </TableRow>
+
+
 
         <TableRow
             android:layout_height="wrap_content"
@@ -147,7 +99,6 @@
                     android:textStyle="bold"
                     android:text="@string/title_activity_weblink" />
             </LinearLayout>
-
 
 
         </TableRow>

@@ -12,55 +12,27 @@ import android.widget.ImageButton;
 
 
 public class MainMenu extends ActionBarActivity {
-//    GridView gv;
     Context context;
-    ImageButton About,Calendar,Checklist,Phone,WebLinks,Travel;
-//    ArrayList prgmName;
-//    public static String [] prgmNameList={"About","Calendar","Checklist", "Phone book","Web links", "Travel"};
-//
-//    // drawable icons for the buttons go here
-//    public static int [] prgmImages={R.drawable.about,R.drawable.calendar,R.drawable.checklist,R.drawable.phonebook,R.drawable.weblinks,R.drawable.taxi};
+    ImageButton About,Calendar,Phone,WebLinks,Travel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main_menu);
-//        gv=(GridView) findViewById(R.id.gridView1);
-//        gv.setAdapter(new MenuAdapter(this, prgmNameList,prgmImages));
         setContentView(R.layout.home);
+
         About = (ImageButton) findViewById(R.id.about);
-        Calendar = (ImageButton) findViewById(R.id.calendar);
-        Checklist = (ImageButton) findViewById(R.id.checklist);
         Phone = (ImageButton) findViewById(R.id.phone);
         WebLinks = (ImageButton) findViewById(R.id.weblist);
         Travel = (ImageButton) findViewById(R.id.travel);
 
         setup();
-
     }
-
 
     public void setup(){
         About.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainMenu.this, About.class);
-                startActivity(intent);
-            }
-        });
-
-        Calendar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainMenu.this, OrientCalendar.class);
-                startActivity(intent);
-            }
-        });
-
-        Checklist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainMenu.this, Checklist.class);
                 startActivity(intent);
             }
         });
