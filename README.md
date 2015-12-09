@@ -7,7 +7,7 @@ In August we released an app (https://play.google.com/store/apps/details?id=kaus
 - kbus - Based on http://kbus.info/ , highly detailed bus scheduling and planner app.
 - Web Links - List of important websites
 
-This is entirely open source, so any contribution would be appreciated. If you have questions, please post in the Issues page or email me at liam.mencel@kaust.edu.sa
+This is entirely open source, so any contribution would be appreciated. If you have questions, please post in the Issues page.
 
 Screenshots of old version:
 
